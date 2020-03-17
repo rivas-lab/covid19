@@ -3,13 +3,10 @@
 #SBATCH --output=logs/snpnet.biomarkers.%A.out
 #SBATCH  --error=logs/snpnet.biomarkers.%A.err
 #SBATCH --nodes=1
-#SBATCH --cores=6
+#SBATCH --cores=8
 #SBATCH --mem=120000
 #SBATCH --time=2-00:00:00
 #SBATCH -p mrivas,normal,owners
-
-#SBATCH --reservation r_covid19
-#SBATCH --account a_covid19
 
 set -beEuo pipefail
 
@@ -41,9 +38,7 @@ submit_new_job () {
         fi
         job_try_cnt_tot=$( perl -e "print(int(${job_try_cnt_tot} + 1))" )
 
-        echo $job_phenotype_name >> ${job_sub_log}
-
-        sbatch \
+        jid=$(sbatch \
         --dependency=afternotok:${SLURM_JOBID} \
         --cores=${job_cores} \
         --mem=${job_mem} \
@@ -53,8 +48,11 @@ submit_new_job () {
         ${job_try_cnt_tot} \
         ${job_cores} \
         ${job_mem} \
-        | tee -a ${job_sub_log} \
-        | awk '{print $NF}'
+        | awk '{print $NF}')
+
+        echo "${job_phenotype_name} ${jid}" >> ${job_sub_log}
+
+        echo ${jid}
     fi
 }
 
@@ -62,11 +60,10 @@ submit_new_job () {
 # Required arguments for ${snpnet_wrapper} script
 ############################################################
 phenotype_name=$1 # One may use phenotype_name=$1 etc
-genotype_pfile="/scratch/groups/mrivas/ukbb24983/array_imp_combined/pgen/ukb24983_hg19_cal_hla_cnv_imp"
-# phe_file="/oak/stanford/groups/mrivas/projects/covid19/snpent/pheno.tsv"
-phe_file="/scratch/groups/mrivas/projects/covid19/snpent/pheno.tsv"
+genotype_pfile="@@@@@@@@@@@@@@@@@@@"
+phe_file="@@@@@@@@@@@@@@@@@@@"
 family="gaussian"
-results_dir="/oak/stanford/groups/mrivas/projects/covid19/snpent/${phenotype_name}"
+results_dir="@@@@@@@@@@@@@@@@@@@/snpent/${phenotype_name}"
 
 ############################################################
 # Additional optional arguments for ${snpnet_wrapper} script
@@ -80,15 +77,7 @@ status_col="CoxStatus"
 ############################################################
 # Configure other parameters
 ############################################################
-# cores=$( cat $0 | egrep '^#SBATCH --cores='  | awk -v FS='=' '{print $NF}' )
-# mem=$(   cat $0 | egrep '^#SBATCH --mem='    | awk -v FS='=' '{print $NF}' )
 ml load snpnet_yt/0.3.4
-#ml load snpnet_yt/dev
-# Two variables (${snpnet_dir} and ${snpnet_wrapper}) should be already configured by Sherlock module
-# https://github.com/rivas-lab/sherlock-modules/tree/master/snpnet
-# Or, you may use the latest versions
-#  snpnet_dir="$OAK/users/$USER/repos/rivas-lab/snpnet"
-#  snpnet_wrapper="$OAK/users/$USER/repos/rivas-lab/PRS/helper/snpnet_wrapper.sh"
 
 ############################################################
 # Run ${snpnet_wrapper} script

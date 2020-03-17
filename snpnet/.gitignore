@@ -1,0 +1,6 @@
+logs_*
+*.log
+*private*
+old_versions
+data
+

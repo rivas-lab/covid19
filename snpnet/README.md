@@ -1,6 +1,10 @@
 # snpnet
 
-We compute PRS with `snpnet`.
+To characterize predictive models for biomarkers and blood measurements, we fit multivariate predictive models for each trait using `snpnet` package[1,2,3]. The `snpnet` method and `BASIL` algorithm is described in our preprint [1] and its enhanced implementation is described in another preprint [2]. The `R` package is available in our GitHub repository[3].
+
+## List of traits
+
+[`pheno_info.tsv`](pheno_info.tsv) has the list of 66 traits used in this analysis. This consists of 35 blood and urine biomaker traits[4] and 31 blood measurements [5]. The phenotype definition of the blood measurements are described in this paper[6].
 
 ## list of scripts/notebooks
 
@@ -8,56 +12,20 @@ We compute PRS with `snpnet`.
 - `2a_snpnet.biomarkers.sbatch.sh`: snpnet sbatch script for the biomarker phenotypes.
 - `2b_snpnet.blood.sbatch.sh`: snpnet sbatch script for the blood measurement phenotypes.
 
-## some useful commans
+## job submission commands
 
-We are planning to move this section into a separate document.
+The job submission commands are summarized in this document: [`snpnet_job_submission.md`](snpnet_job_submission.md).
 
-### check the status of the jobs
+## Acknowledgement
 
-```{bash}
-cd /oak/stanford/groups/mrivas/projects/covid19/snpent
+We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for providing prioritized queue for COVID-19 research[7].
 
-find  -type f -name "*sscore.zst" | while read p ; do basename $p .sscore.zst ; done | sort | awk '{print NR, $0}'
+## Reference
 
-find  -type f -name "*.RData" | wc
-
-find  -type f -name "*.RData"|  awk -v FS='/' '{print $2}' | sort | uniq -c | sort -k1,1n | less
-
-find  -type f -name "*.RData" | egrep -v $(find  -type f -name "*sscore.zst" | while read p ; do basename $p .sscore.zst ; done | sort | tr "\n" "|" | rev | cut -c2- | rev) |  awk -v FS='/' '{print $2}' | sort | uniq -c | sort -k1,1n | less
-```
-
-### v3
-
-- Default is now 120GB of mem.
-- Added special commands to COVID-19 queue.
-- The job submission and re-submission histories are dumped to log files.
-
-```{bash}
-cat pheno.info.tsv | awk '(NR>1){print $1}' | while read p ; do if [ ! -f /oak/stanford/groups/mrivas/projects/covid19/snpent/$p/snpnet.tsv ] ; then echo $p ; fi ; done | egrep -v '^INI' | while read p ; do echo $p ; sbatch 2a_snpnet.biomarkers.sbatch.v3.sh $p ; done | tee 2a_snpnet.biomarkers.sbatch.v3.log
-
-cat pheno.info.tsv | awk '(NR>1){print $1}' | while read p ; do if [ ! -f /oak/stanford/groups/mrivas/projects/covid19/snpent/$p/snpnet.tsv ] ; then echo $p ; fi ; done | egrep '^INI' | while read p ; do echo $p ; sbatch 2b_snpnet.blood.sbatch.v3.sh $p ; done | tee 2b_snpnet.blood.sbatch.v3.log
-```
-
-### v2
-
-- This version of the scripts comes with an automated re-submission of the jobs.
-
-```{bash}
-cat pheno.info.tsv | awk '(NR>1){print $1}' | while read p ; do if [ ! -f /oak/stanford/groups/mrivas/projects/covid19/snpent/$p/snpnet.tsv ] ; then echo $p ; fi ; done | egrep -v '^INI' | while read p ; do echo $p ; sbatch 2a_snpnet.biomarkers.sbatch.v2.sh $p ; done | tee 2a_snpnet.biomarkers.sbatch.v2.log
-
-cat pheno.info.tsv | awk '(NR>1){print $1}' | while read p ; do if [ ! -f /oak/stanford/groups/mrivas/projects/covid19/snpent/$p/snpnet.tsv ] ; then echo $p ; fi ; done | egrep '^INI' | while read p ; do echo $p ; sbatch 2b_snpnet.blood.sbatch.v2.sh $p ; done | tee 2b_snpnet.blood.sbatch.v2.log
-```
-
-### v1
-
-- Initial version of the script
-
-```{bash}
-cat pheno.info.tsv | awk '(NR>1){print $1}' | egrep -v '^INI' | while read p ; do echo $p ; sbatch 2a_snpnet.biomarkers.sbatch.sh $p ; done | tee 2a_snpnet.biomarkers.sbatch.log
-
-cat pheno.info.tsv | awk '(NR>1){print $1}' | egrep '^INI' | while read p ; do echo $p ; sbatch 2b_snpnet.blood.sbatch.sh $p ; done | tee 2b_snpnet.blood.sbatch.log
-```
-
-```{bash}
-cat pheno.info.tsv | awk '(NR>1){print $1}' | while read p ; do if [ ! -f /oak/stanford/groups/mrivas/projects/covid19/snpent/$p/snpnet.tsv ] ; then echo $p ; fi ; done
-```
+1. [Qian, J. et al. A Fast and Flexible Algorithm for Solving the Lasso in Large-scale and Ultrahigh-dimensional Problems. bioRxiv 630079 (2019)](https://doi.org/doi:10.1101/630079).
+2. [Li, R. et al. Fast Lasso method for Large-scale and Ultrahigh-dimensional Cox Model with applications to UK Biobank. bioRxiv 2020.01.20.913194 (2020)](https://doi.org/10.1101/2020.01.20.913194).
+3. [GitHub:rivas-lab/snpnet - Efficient Lasso Solver for Large-scale genetic variant data. (Rivas Lab, 2019)](https://github.com/rivas-lab/snpnet).
+4. [Sinnott-Armstrong, N. et al. Genetics of 38 blood and urine biomarkers in the UK Biobank. bioRxiv 660506 (2019)](https://doi.org/10.1101/660506).
+5. [UK Biobank : Category 100081. Blood count - Blood assays - Assay results - Biological samples](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100081).
+6. [Tanigawa, Y. et al. Components of genetic associations across 2,138 phenotypes in the UK Biobank highlight adipocyte biology. Nat Commun 10, 1–14 (2019)](https://doi.org/10.1038/s41467-019-11953-9).
+7. [Sherlock joins the fight against COVID-19. Stanford Research Computing Center](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19).
