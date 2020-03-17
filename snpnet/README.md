@@ -1,10 +1,10 @@
 # snpnet
 
-To characterize predictive models for biomarkers and blood measurements, we fit multivariate predictive models for each trait using `snpnet` package[1,2,3]. The `snpnet` method and `BASIL` algorithm is described in our preprint [1] and its enhanced implementation is described in another preprint [2]. The `R` package is available in our GitHub repository[3].
+To characterize predictive models for biomarkers and blood measurements, we fit multivariate predictive models for each trait using `snpnet` package[1,2,3]. The `snpnet` method and `BASIL` algorithm is described in our preprint[1] and its enhanced implementation is described in another preprint[2]. The `R` package is available in our GitHub repository[3].
 
 ## List of traits
 
-[`pheno_info.tsv`](pheno_info.tsv) has the list of 66 traits used in this analysis. This consists of 35 blood and urine biomaker traits[4] and 31 blood measurements [5]. The phenotype definition of the blood measurements are described in this paper[6].
+[`pheno.info.tsv`](pheno_info.tsv) has the list of 66 traits used in this analysis. This consists of 35 blood and urine biomaker traits[4] and 31 blood measurements[5]. The phenotype definition of the blood measurements are described in this paper[6].
 
 ## list of scripts/notebooks
 
@@ -18,7 +18,7 @@ The job submission commands are summarized in this document: [`snpnet_job_submis
 
 ## Acknowledgement
 
-We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for providing prioritized queue for COVID-19 research[7].
+We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [providing prioritized queue for COVID-19 research](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19)[7].
 
 ## Reference
 

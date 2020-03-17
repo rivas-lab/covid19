@@ -7,7 +7,7 @@ As a part of [COVID-19 Host Genetics Initiative](https://covid-19genehostinitiat
 
 ## Acknowledgement
 
-We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for providing prioritized queue for COVID-19 research[5].
+We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [providing prioritized queue for COVID-19 research](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19)[5].
 
 ## Reference
 
