@@ -16,6 +16,10 @@ To characterize predictive models for biomarkers and blood measurements, we fit 
 
 The job submission commands are summarized in this document: [`snpnet_job_submission.md`](snpnet_job_submission.md).
 
+## Weights of polygenic risk scores
+
+We are currently running the `snpnet` computation. We will soon make the weights (`BETA` in the multivariate predictive model) of the polygenic risk score publicly available.
+
 ## Acknowledgement
 
 We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [providing prioritized queue for COVID-19 research](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19)[7].

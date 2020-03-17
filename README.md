@@ -5,6 +5,11 @@ As a part of [COVID-19 Host Genetics Initiative](https://covid-19genehostinitiat
 - [`UKB_HLA_freq`](/UKB_HLA_freq): HLA frequency in UK Biobank[1].
 - [`snpnet`](/snpnet): Polygenic prediction of biomarkers and blood measurements. We deposit notebooks and scripts for polygenic risk score (PRS) analysis in this directory[2,3,4].
 
+## publicly available resources
+
+- [HLA allelotype frequencies in UK Biobank](/UKB_HLA_freq)
+- [The weights for polygenic risk prediction](/snpnet)
+
 ## Acknowledgement
 
 We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [providing prioritized queue for COVID-19 research](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19)[5].
