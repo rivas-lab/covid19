@@ -14,6 +14,11 @@ As a part of [COVID-19 Host Genetics Initiative](https://covid-19genehostinitiat
 
 We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [providing prioritized queue for COVID-19 research](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19)[5].
 
+## Update log
+
+- 2020/3/17: We updated the [HLA fequency reference](/UKB_HLA_freq). It now includes the frequencies from 5 population groups.
+- 2020/3/17: initial release!
+
 ## Reference
 
 1. [McInnes, G. et al. Global Biobank Engine: enabling genotype-phenotype browsing for biobank summary statistics. Bioinformatics (2019)](https://doi.org/10.1093/bioinformatics/bty999).
