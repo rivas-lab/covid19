@@ -1,9 +1,5 @@
 # COVID-19 Host Genetics analysis
 
-#### Yosuke Tanigawa, Marcelo Fernandez Vina, Euan Ashley, Carlos Bustamante, Julia Palacios, Benjamin Pinsky, Manuel A. Rivas
-
-## Summary
-
 As a part of [COVID-19 Host Genetics Initiative](https://covid-19genehostinitiative.net/), we perform the following set of analyses to better understand the genetic basis of COVID-19 susceptibility and severity.
 
 - [`UKB_HLA_freq`](/UKB_HLA_freq): HLA frequency in UK Biobank[1].
@@ -15,6 +11,10 @@ As a part of [COVID-19 Host Genetics Initiative](https://covid-19genehostinitiat
 - (New: 2020/3/19) [The weights for polygenic risk prediction](/snpnet)
   - The weights of PRSs are available at [Google Drive shared folder: https://bit.ly/rivas-lab_covid19_PRS_weights](https://bit.ly/rivas-lab_covid19_PRS_weights).
   - Please see the documentation in [`snpnet`](/snpnet) directory for more information.
+
+## Note
+
+This repo is a summary of joint effort for the community project from the Stanford Researchers and Clinicians, including (but not limited to) the following people: Yosuke Tanigawa, Marcelo Fernandez Vina, Euan Ashley, Carlos Bustamante, Julia Palacios, Benjamin Pinsky, Manuel A. Rivas.
 
 ## Acknowledgement
 
