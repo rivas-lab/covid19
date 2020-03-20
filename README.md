@@ -16,6 +16,7 @@ We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [p
 
 ## Update log
 
+- 2020/3/19: We made an initial release of the polygenic risk score weights for 66 triats (blood measurements and biomarkers)! We are still running the PRS computations and we will make an update release when we have improved results.
 - 2020/3/17: We updated the [HLA fequency reference](/UKB_HLA_freq). It now includes the frequencies from 5 population groups.
 - 2020/3/17: initial release!
 
