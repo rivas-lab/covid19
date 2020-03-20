@@ -2,9 +2,9 @@
 
 To characterize predictive models for biomarkers and blood measurements, we fit multivariate predictive models for each trait using `snpnet` package[1,2,3]. The `snpnet` method and `BASIL` algorithm is described in our preprint[1] and its enhanced implementation is described in another preprint[2]. The `R` package is available in our GitHub repository[3].
 
-## List of traits
+## List of 61 traits used in our analysis
 
-[`pheno.info.tsv`](pheno_info.tsv) has the list of 66 traits used in this analysis. This consists of 35 blood and urine biomaker traits[4] and 31 blood measurements[5]. The phenotype definition of the blood measurements are described in this paper[6].
+[`pheno.info.tsv`](pheno.info.tsv) has the list of 66 traits used in this analysis. This consists of 35 blood and urine biomaker traits[4] and 31 blood measurements[5]. The phenotype definition of the blood measurements are described in this paper[6].
 
 ## Our PRS models
 
