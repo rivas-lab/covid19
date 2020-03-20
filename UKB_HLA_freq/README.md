@@ -41,6 +41,12 @@ From `R`, you may read the tables like this:
 df <- data.table::fread(cmd=paste('zstdcat', zst_file))
 ```
 
+## Other community resource
+
+### [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/)
+
+They have the [worldwide population frequencies in unrelated individuals and in families](http://17ihiw.org/17th-ihiw-ngs-hla-data/)[6].
+
 ## Reference
 
 1. [Sinnott-Armstrong, N. et al. Genetics of 38 blood and urine biomarkers in the UK Biobank. bioRxiv 660506 (2019)](https://doi.org/10.1101/660506).
@@ -48,3 +54,4 @@ df <- data.table::fread(cmd=paste('zstdcat', zst_file))
 3. [PLINK 2.0](https://www.cog-genomics.org/plink/2.0/).
 4. [McInnes, G. et al. Global Biobank Engine: enabling genotype-phenotype browsing for biobank summary statistics. Bioinformatics (2019)](https://doi.org/10.1093/bioinformatics/bty999).
 5. [Zstandard - Real-time data compression algorithm](https://facebook.github.io/zstd/).
+6. [17th IHIW NGS HLA Data | 17th International HLA and Immunogenetics Workshop](http://17ihiw.org/17th-ihiw-ngs-hla-data/).
