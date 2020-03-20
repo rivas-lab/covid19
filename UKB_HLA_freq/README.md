@@ -47,6 +47,10 @@ df <- data.table::fread(cmd=paste('zstdcat', zst_file))
 
 They have the [worldwide population frequencies in unrelated individuals and in families](http://17ihiw.org/17th-ihiw-ngs-hla-data/)[6].
 
+## Acknowledgement
+
+We thank Marcelo Fernandez-Vina and Euan Ashley for providing the information about the 17th IHIW NGS HLA Data.
+
 ## Reference
 
 1. [Sinnott-Armstrong, N. et al. Genetics of 38 blood and urine biomarkers in the UK Biobank. bioRxiv 660506 (2019)](https://doi.org/10.1101/660506).
