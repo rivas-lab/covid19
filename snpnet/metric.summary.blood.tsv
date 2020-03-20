@@ -1,0 +1,32 @@
+#phenotype	geno_and_covars	geno	covars
+White blood cell count	0.072	0.065	0.008
+Red blood cell count	0.355	0.105	0.256
+Haemoglobin concentration	0.421	0.062	0.361
+Haematocrit %	0.383	0.059	0.326
+Mean corpuscular volume	0.206	0.192	0.016
+Mean corpuscular haemoglobin	0.182	0.165	0.019
+Mean corpuscular haemoglobin concentration	0.036	0.024	0.012
+Red blood cell distribution width	0.085	0.079	0.006
+Platelet count	0.240	0.186	0.058
+Platelet crit	0.229	0.147	0.087
+Mean platelet volume	0.337	0.335	0.002
+Platelet distribution width	0.220	0.199	0.022
+Lymphocyte count	0.030	0.019	0.013
+Monocyte count	0.103	0.068	0.038
+Neutrophill count	0.084	0.080	0.004
+Eosinophill count	0.096	0.088	0.009
+Basophill count	0.016	0.014	0.002
+Nuc. red blood cell count	0.000	0.000	0.000
+Lymphocyte %	0.091	0.072	0.020
+Monocyte %	0.124	0.084	0.042
+Neutrophill %	0.070	0.067	0.002
+Eosinophill %	0.085	0.079	0.008
+Basophill %	0.016	0.014	0.002
+Nuc. red blood cell %	0.000	0.000	0.000
+Reticulocyte %	0.028	0.027	0.001
+Reticulocyte count	0.050	0.039	0.012
+Mean reticulocyte volume	0.148	0.139	0.011
+Mean sphered cell volume	0.146	0.140	0.008
+Immature reticulocyte fraction	0.093	0.084	0.009
+High light scatter reticulocyte %	0.015	0.014	0.001
+High light scatter reticulocyte count	0.106	0.091	0.015

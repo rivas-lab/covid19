@@ -1,0 +1,36 @@
+#phenotype	geno_and_covars	geno	covars
+Alanine aminotransferase	0.058	0.058	0.000
+Albumin	0.071	0.071	0.000
+Alkaline phosphatase	0.211	0.211	0.000
+Apolipoprotein A	0.159	0.159	0.000
+Apolipoprotein B	0.259	0.259	0.000
+Aspartate aminotransferase	0.066	0.066	0.000
+Calcium	0.068	0.068	0.000
+Cholesterol	0.129	0.129	0.000
+C-reactive protein	0.120	0.120	0.000
+Creatinine	0.093	0.093	0.000
+Cystatin C	0.133	0.133	0.000
+Direct bilirubin	0.276	0.276	0.000
+Gamma glutamyltransferase	0.128	0.128	0.000
+Glucose	0.024	0.024	0.000
+HbA1c	0.101	0.101	0.000
+HDL cholesterol	0.184	0.184	0.000
+IGF-1	0.123	0.123	0.000
+LDL cholesterol	0.204	0.204	0.000
+Lipoprotein A	0.548	0.548	0.000
+Phosphate	0.069	0.069	0.000
+SHBG	0.165	0.165	0.000
+Testosterone	0.028	0.028	0.000
+Total bilirubin	0.363	0.363	0.000
+Total protein	0.085	0.085	0.000
+Triglycerides	0.126	0.126	0.000
+Urate	0.144	0.144	0.000
+Urea	0.049	0.049	0.000
+Vitamin D	0.055	0.055	0.000
+Creatinine in urine	0.007	0.007	0.000
+eGFR	0.066	0.066	0.000
+Microalbumin in urine	0.000	0.000	0.000
+Potassium in urine	0.002	0.002	0.000
+Sodium in urine	0.008	0.008	0.000
+Non-albumin protein	0.110	0.110	0.000
+AST to ALT ratio	0.076	0.076	0.000
