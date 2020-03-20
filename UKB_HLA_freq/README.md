@@ -45,7 +45,7 @@ df <- data.table::fread(cmd=paste('zstdcat', zst_file))
 
 ### [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/)
 
-They have the [worldwide population frequencies in unrelated individuals and in families](http://17ihiw.org/17th-ihiw-ngs-hla-data/)[6].
+They have the [worldwide population frequencies in unrelated individuals and in families](http://17ihiw.org/17th-ihiw-ngs-hla-data/)[6,7].
 
 ## Acknowledgement
 
@@ -59,3 +59,4 @@ We thank Marcelo Fernandez-Vina and Euan Ashley for providing the information ab
 4. [McInnes, G. et al. Global Biobank Engine: enabling genotype-phenotype browsing for biobank summary statistics. Bioinformatics (2019)](https://doi.org/10.1093/bioinformatics/bty999).
 5. [Zstandard - Real-time data compression algorithm](https://facebook.github.io/zstd/).
 6. [17th IHIW NGS HLA Data | 17th International HLA and Immunogenetics Workshop](http://17ihiw.org/17th-ihiw-ngs-hla-data/).
+7. [Osoegawa, K. et al. HLA Haplotype Validator for quality assessments of HLA typing. Human Immunology 77, 273–282 (2016)](https://doi.org/10.1016/j.humimm.2015.10.018).
