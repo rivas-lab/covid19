@@ -1,5 +1,9 @@
 # COVID-19 Host Genetics analysis
 
+#### Yosuke Tanigawa, Marcelo Fernandez Vina, Euan Ashley, Carlos Bustamante, Julia Palacios, Benjamin Pinsky, Manuel A. Rivas
+
+## Summary
+
 As a part of [COVID-19 Host Genetics Initiative](https://covid-19genehostinitiative.net/), we perform the following set of analyses to better understand the genetic basis of COVID-19 susceptibility and severity.
 
 - [`UKB_HLA_freq`](/UKB_HLA_freq): HLA frequency in UK Biobank[1].
