@@ -1,0 +1,7 @@
+#population	n	A	B	AB	O	Note	Source
+Wuhan_controls	3694	1188	920	336	1250	"Tbl1	 Wuhan area controls"	https://doi.org/10.1101/2020.03.11.20031096
+Wuhan_Jinyintan_Hospital_Pts	1775	670	469	178	458	"Tbl1	 Wuhan Jinyintan Hospital (Patients)"	https://doi.org/10.1101/2020.03.11.20031096
+Wuhan_Jinyintan_Hospital_Deaths	206	85	50	19	52	"Tbl1	 Wuhan Jinyintan Hospital (Deaths)"	https://doi.org/10.1101/2020.03.11.20031096
+Renmin_Hospital_of_Wuhan_U_Pts	113	45	25	15	28	"Tbl1	 Renmin Hospital of Wuhan University (Patients)"	https://doi.org/10.1101/2020.03.11.20031096
+Shenzhen_controls	23386	6728	5880	1712	9066	"Tbl1	 Shenzhen area controls"	https://doi.org/10.1101/2020.03.11.20031096
+Shenzhen_3rd_ppl_Hospital_Pts	285	82	83	39	81	"Tbl1	 Shenzhen Third People's Hospital (Patients)"	https://doi.org/10.1101/2020.03.11.20031096
