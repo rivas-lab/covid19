@@ -1,0 +1,46 @@
+#GBE_ID	phenotype	phenotype_full	UKB_Field	N	N_WB	N_AFR	N_SAS	N_EAS
+INI23000	1gG antigen for Herpes Simplex virus-1	1gG_antigen_for_Herpes_Simplex_virus-1	23000	9691	6643	124	146	43
+INI23001	2mgG unique antigen for Herpes Simplex virus-2	2mgG_unique_antigen_for_Herpes_Simplex_virus-2	23001	9691	6643	124	146	43
+INI23002	GE / gI antigen for Varicella Zoster Virus	gE_/_gI_antigen_for_Varicella_Zoster_Virus	23002	9691	6643	124	146	43
+INI23003	VCA p18 antigen for Epstein-Barr Virus	VCA_p18_antigen_for_Epstein-Barr_Virus	23003	9691	6643	124	146	43
+INI23004	EBNA-1 antigen for Epstein-Barr Virus	EBNA-1_antigen_for_Epstein-Barr_Virus	23004	9691	6643	124	146	43
+INI23005	ZEBRA antigen for Epstein-Barr Virus	ZEBRA_antigen_for_Epstein-Barr_Virus	23005	9691	6643	124	146	43
+INI23006	EA-D antigen for Epstein-Barr Virus	EA-D_antigen_for_Epstein-Barr_Virus	23006	9691	6643	124	146	43
+INI23007	Pp150 Nter antigen for Human Cytomegalovirus	pp150_Nter_antigen_for_Human_Cytomegalovirus	23007	9691	6643	124	146	43
+INI23008	Pp 52 antigen for Human Cytomegalovirus	pp_52_antigen_for_Human_Cytomegalovirus	23008	9691	6643	124	146	43
+INI23009	Pp 28 antigen for Human Cytomegalovirus	pp_28_antigen_for_Human_Cytomegalovirus	23009	9691	6643	124	146	43
+INI23010	IE1A antigen for Human Herpesvirus-6	IE1A_antigen_for_Human_Herpesvirus-6	23010	9691	6643	124	146	43
+INI23011	IE1B antigen for Human Herpesvirus-6	IE1B_antigen_for_Human_Herpesvirus-6	23011	9691	6643	124	146	43
+INI23012	P101 k antigen for Human Herpesvirus-6	p101_k_antigen_for_Human_Herpesvirus-6	23012	9691	6643	124	146	43
+INI23013	U14 antigen for Human Herpesvirus-7	U14_antigen_for_Human_Herpesvirus-7	23013	9691	6643	124	146	43
+INI23014	LANA antigen for Kaposi's Sarcoma-Associated Herpesvirus	LANA_antigen_for_Kaposi's_Sarcoma-Associated_Herpesvirus	23014	9691	6643	124	146	43
+INI23015	K8.1 antigen for Kaposi's Sarcoma-Associated Herpesvirus	K8.1_antigen_for_Kaposi's_Sarcoma-Associated_Herpesvirus	23015	9691	6643	124	146	43
+INI23016	HBc antigen for Hepatitis B Virus	HBc_antigen_for_Hepatitis_B_Virus	23016	9691	6643	124	146	43
+INI23017	HBe antigen for Hepatitis B Virus	HBe_antigen_for_Hepatitis_B_Virus	23017	9691	6643	124	146	43
+INI23018	Core antigen for Hepatitis C Virus	Core_antigen_for_Hepatitis_C_Virus	23018	9691	6643	124	146	43
+INI23019	NS3 antigen for Hepatitis C Virus	NS3_antigen_for_Hepatitis_C_Virus	23019	9691	6643	124	146	43
+INI23020	P22 antigen for Toxoplasma gondii	p22_antigen_for_Toxoplasma_gondii	23020	9691	6643	124	146	43
+INI23021	Sag1 antigen for Toxoplasma gondii	sag1_antigen_for_Toxoplasma_gondii	23021	9691	6643	124	146	43
+INI23022	HTLV-1 gag antigen for Human T-Lymphotropic Virus 1	HTLV-1_gag_antigen_for_Human_T-Lymphotropic_Virus_1	23022	9691	6643	124	146	43
+INI23023	HTLV-1 env antigen for Human T-Lymphotropic Virus 1	HTLV-1_env_antigen_for_Human_T-Lymphotropic_Virus_1	23023	9691	6643	124	146	43
+INI23024	HIV-1 gag antigen for Human Immunodeficiency Virus	HIV-1_gag_antigen_for_Human_Immunodeficiency_Virus	23024	9691	6643	124	146	43
+INI23025	HIV-1 env antigen for Human Immunodeficiency Virus	HIV-1_env_antigen_for_Human_Immunodeficiency_Virus	23025	9691	6643	124	146	43
+INI23026	BK VP1 antigen for Human Polyomavirus BKV	BK_VP1_antigen_for_Human_Polyomavirus_BKV	23026	9691	6643	124	146	43
+INI23027	JC VP1 antigen for Human Polyomavirus JCV	JC_VP1_antigen_for_Human_Polyomavirus_JCV	23027	9691	6643	124	146	43
+INI23028	MC VP1 antigen for Merkel Cell Polyomavirus	MC_VP1_antigen_for_Merkel_Cell_Polyomavirus	23028	9691	6643	124	146	43
+INI23029	L1 antigen for Human Papillomavirus type-16	L1_antigen_for_Human_Papillomavirus_type-16	23029	9691	6643	124	146	43
+INI23030	E6 antigen for Human Papillomavirus type-16	E6_antigen_for_Human_Papillomavirus_type-16	23030	9691	6643	124	146	43
+INI23031	E7 antigen for Human Papillomavirus type-16	E7_antigen_for_Human_Papillomavirus_type-16	23031	9691	6643	124	146	43
+INI23032	L1 antigen for Human Papillomavirus type-18	L1_antigen_for_Human_Papillomavirus_type-18	23032	9691	6643	124	146	43
+INI23033	Momp D antigen for Chlamydia trachomatis	momp_D_antigen_for_Chlamydia_trachomatis	23033	9691	6643	124	146	43
+INI23034	Momp A antigen for Chlamydia trachomatis	momp_A_antigen_for_Chlamydia_trachomatis	23034	9691	6643	124	146	43
+INI23035	Tarp-D F1 antigen for Chlamydia trachomatis	tarp-D_F1_antigen_for_Chlamydia_trachomatis	23035	9691	6643	124	146	43
+INI23036	Tarp-D F2 antigen for Chlamydia trachomatis	tarp-D_F2_antigen_for_Chlamydia_trachomatis	23036	9691	6643	124	146	43
+INI23037	PorB antigen for Chlamydia trachomatis	PorB_antigen_for_Chlamydia_trachomatis	23037	9691	6643	124	146	43
+INI23038	PGP3 antigen for Chlamydia trachomatis	pGP3_antigen_for_Chlamydia_trachomatis	23038	9691	6643	124	146	43
+INI23039	CagA antigen for Helicobacter pylori	CagA_antigen_for_Helicobacter_pylori	23039	4898	3378	56	73	24
+INI23040	VacA antigen for Helicobacter pylori	VacA_antigen_for_Helicobacter_pylori	23040	9691	6643	124	146	43
+INI23041	OMP antigen for Helicobacter pylori	OMP_antigen_for_Helicobacter_pylori	23041	9691	6643	124	146	43
+INI23042	GroEL antigen for Helicobacter pylori	GroEL_antigen_for_Helicobacter_pylori	23042	9691	6643	124	146	43
+INI23043	Catalase antigen for Helicobacter pylori	Catalase_antigen_for_Helicobacter_pylori	23043	9691	6643	124	146	43
+INI23044	UreA antigen for Helicobacter pylori	UreA_antigen_for_Helicobacter_pylori	23044	9691	6643	124	146	43

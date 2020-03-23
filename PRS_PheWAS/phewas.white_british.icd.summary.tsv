@@ -1,0 +1,49 @@
+#population	phenotype	PRS	PRS_pheno	OR	P
+white_british	ICD_death	INI30000_PRS	White blood cell count	1.118 (1.091,1.146)	4.27e-06
+non_british_white	ICD_death	INI30000_PRS	White blood cell count	1.085 (0.988,1.191)	3.82e-01
+s_asian	ICD_death	INI30000_PRS	White blood cell count	1.243 (1.059,1.459)	1.74e-01
+white_british	ICD_death	INI30120_PRS	Lymphocyte count	1.001 (0.977,1.025)	9.77e-01
+non_british_white	ICD_death	INI30120_PRS	Lymphocyte count	1.049 (0.955,1.152)	6.11e-01
+s_asian	ICD_death	INI30120_PRS	Lymphocyte count	0.869 (0.739,1.023)	3.89e-01
+white_british	ICD_death	INI30140_PRS	Neutrophill count	1.125 (1.098,1.153)	1.33e-06
+non_british_white	ICD_death	INI30140_PRS	Neutrophill count	1.165 (1.060,1.280)	1.05e-01
+s_asian	ICD_death	INI30140_PRS	Neutrophill count	1.280 (1.087,1.508)	1.31e-01
+white_british	ICD_death	INI30150_PRS	Eosinophill count	1.016 (0.991,1.041)	5.21e-01
+non_british_white	ICD_death	INI30150_PRS	Eosinophill count	1.150 (1.047,1.263)	1.37e-01
+s_asian	ICD_death	INI30150_PRS	Eosinophill count	1.148 (0.976,1.351)	3.95e-01
+white_british	ICD_death	INI30180_PRS	Lymphocyte %	0.955 (0.932,0.979)	6.00e-02
+non_british_white	ICD_death	INI30180_PRS	Lymphocyte %	0.962 (0.876,1.057)	6.81e-01
+s_asian	ICD_death	INI30180_PRS	Lymphocyte %	0.726 (0.616,0.855)	5.10e-02
+white_british	ICD_death	INI30190_PRS	Monocyte %	0.984 (0.961,1.009)	5.22e-01
+non_british_white	ICD_death	INI30190_PRS	Monocyte %	0.900 (0.820,0.988)	2.60e-01
+s_asian	ICD_death	INI30190_PRS	Monocyte %	0.790 (0.671,0.930)	1.49e-01
+white_british	ICD_death	INI30200_PRS	Neutrophill %	1.049 (1.023,1.075)	5.12e-02
+non_british_white	ICD_death	INI30200_PRS	Neutrophill %	1.144 (1.041,1.256)	1.52e-01
+s_asian	ICD_death	INI30200_PRS	Neutrophill %	1.261 (1.069,1.488)	1.61e-01
+white_british	ICD_death	INI30210_PRS	Eosinophill %	1.002 (0.978,1.027)	9.24e-01
+non_british_white	ICD_death	INI30210_PRS	Eosinophill %	1.065 (0.969,1.170)	5.07e-01
+s_asian	ICD_death	INI30210_PRS	Eosinophill %	1.115 (0.946,1.315)	5.09e-01
+white_british	ICD_disease	INI30000_PRS	White blood cell count	1.101 (1.092,1.109)	1.02e-37
+non_british_white	ICD_disease	INI30000_PRS	White blood cell count	1.045 (1.015,1.076)	1.28e-01
+s_asian	ICD_disease	INI30000_PRS	White blood cell count	1.136 (1.084,1.190)	6.34e-03
+white_british	ICD_disease	INI30120_PRS	Lymphocyte count	1.053 (1.045,1.060)	3.20e-12
+non_british_white	ICD_disease	INI30120_PRS	Lymphocyte count	1.011 (0.982,1.041)	7.04e-01
+s_asian	ICD_disease	INI30120_PRS	Lymphocyte count	1.117 (1.066,1.170)	1.73e-02
+white_british	ICD_disease	INI30140_PRS	Neutrophill count	1.095 (1.087,1.103)	1.04e-33
+non_british_white	ICD_disease	INI30140_PRS	Neutrophill count	1.055 (1.025,1.086)	6.52e-02
+s_asian	ICD_disease	INI30140_PRS	Neutrophill count	1.127 (1.075,1.182)	1.11e-02
+white_british	ICD_disease	INI30150_PRS	Eosinophill count	1.061 (1.053,1.069)	2.07e-15
+non_british_white	ICD_disease	INI30150_PRS	Eosinophill count	1.057 (1.027,1.088)	5.41e-02
+s_asian	ICD_disease	INI30150_PRS	Eosinophill count	1.085 (1.036,1.137)	7.87e-02
+white_british	ICD_disease	INI30180_PRS	Lymphocyte %	0.980 (0.973,0.988)	7.41e-03
+non_british_white	ICD_disease	INI30180_PRS	Lymphocyte %	0.970 (0.943,0.999)	3.00e-01
+s_asian	ICD_disease	INI30180_PRS	Lymphocyte %	0.917 (0.875,0.962)	6.73e-02
+white_british	ICD_disease	INI30190_PRS	Monocyte %	0.999 (0.991,1.006)	8.54e-01
+non_british_white	ICD_disease	INI30190_PRS	Monocyte %	0.997 (0.968,1.026)	9.09e-01
+s_asian	ICD_disease	INI30190_PRS	Monocyte %	1.024 (0.977,1.073)	6.13e-01
+white_british	ICD_disease	INI30200_PRS	Neutrophill %	1.021 (1.014,1.029)	4.69e-03
+non_british_white	ICD_disease	INI30200_PRS	Neutrophill %	1.030 (1.001,1.060)	3.08e-01
+s_asian	ICD_disease	INI30200_PRS	Neutrophill %	1.081 (1.031,1.134)	9.88e-02
+white_british	ICD_disease	INI30210_PRS	Eosinophill %	1.029 (1.021,1.036)	1.56e-04
+non_british_white	ICD_disease	INI30210_PRS	Eosinophill %	1.043 (1.013,1.074)	1.49e-01
+s_asian	ICD_disease	INI30210_PRS	Eosinophill %	1.051 (1.003,1.101)	2.89e-01

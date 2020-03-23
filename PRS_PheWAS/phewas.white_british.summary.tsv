@@ -1,0 +1,353 @@
+#GBE_ID	PRS	phenotype	PRS_pheno	BETA	P	fdr
+INI23000	INI30000_PRS	1gG antigen for Herpes Simplex virus-1	White blood cell count	0.050 (0.038,0.062)	3.34e-05	0.00701655816664228
+INI23010	INI30200_PRS	IE1A antigen for Human Herpesvirus-6	Neutrophill %	-0.050 (-0.062,-0.038)	4.44e-05	0.00701655816664228
+INI23009	INI30000_PRS	Pp 28 antigen for Human Cytomegalovirus	White blood cell count	0.049 (0.037,0.061)	5.98e-05	0.00701655816664228
+INI23000	INI30150_PRS	1gG antigen for Herpes Simplex virus-1	Eosinophill count	0.046 (0.034,0.058)	1.37e-04	0.0120544462696814
+INI23010	INI30180_PRS	IE1A antigen for Human Herpesvirus-6	Lymphocyte %	0.044 (0.032,0.056)	3.40e-04	0.0238898871105814
+INI23008	INI30120_PRS	Pp 52 antigen for Human Cytomegalovirus	Lymphocyte count	0.042 (0.030,0.055)	4.55e-04	0.0238898871105814
+INI23000	INI30140_PRS	1gG antigen for Herpes Simplex virus-1	Neutrophill count	0.042 (0.030,0.054)	4.75e-04	0.0238898871105814
+INI23009	INI30120_PRS	Pp 28 antigen for Human Cytomegalovirus	Lymphocyte count	0.040 (0.028,0.052)	9.91e-04	0.0436188624778188
+INI23015	INI30000_PRS	K8.1 antigen for Kaposi's Sarcoma-Associated Herpesvirus	White blood cell count	0.039 (0.027,0.051)	1.37e-03	0.0534947374033929
+INI23015	INI30120_PRS	K8.1 antigen for Kaposi's Sarcoma-Associated Herpesvirus	Lymphocyte count	0.038 (0.026,0.050)	1.88e-03	0.0612839304744874
+INI23010	INI30120_PRS	IE1A antigen for Human Herpesvirus-6	Lymphocyte count	0.038 (0.026,0.050)	1.92e-03	0.0612839304744874
+INI23008	INI30000_PRS	Pp 52 antigen for Human Cytomegalovirus	White blood cell count	0.037 (0.025,0.049)	2.24e-03	0.065663967501853
+INI23025	INI30000_PRS	HIV-1 env antigen for Human Immunodeficiency Virus	White blood cell count	0.036 (0.023,0.048)	3.44e-03	0.086879747580686
+INI23029	INI30000_PRS	L1 antigen for Human Papillomavirus type-16	White blood cell count	0.035 (0.023,0.048)	3.59e-03	0.086879747580686
+INI23029	INI30120_PRS	L1 antigen for Human Papillomavirus type-16	Lymphocyte count	0.035 (0.023,0.047)	3.70e-03	0.086879747580686
+INI23012	INI30200_PRS	P101 k antigen for Human Herpesvirus-6	Neutrophill %	-0.033 (-0.045,-0.021)	4.90e-03	0.107690251685605
+INI23005	INI30210_PRS	ZEBRA antigen for Epstein-Barr Virus	Eosinophill %	0.033 (0.021,0.045)	6.25e-03	0.129435658693805
+INI23024	INI30200_PRS	HIV-1 gag antigen for Human Immunodeficiency Virus	Neutrophill %	-0.033 (-0.045,-0.021)	6.76e-03	0.132153697372518
+INI23024	INI30190_PRS	HIV-1 gag antigen for Human Immunodeficiency Virus	Monocyte %	0.033 (0.020,0.045)	7.51e-03	0.137131562206081
+INI23014	INI30000_PRS	LANA antigen for Kaposi's Sarcoma-Associated Herpesvirus	White blood cell count	0.031 (0.019,0.043)	7.82e-03	0.137131562206081
+INI23005	INI30180_PRS	ZEBRA antigen for Epstein-Barr Virus	Lymphocyte %	-0.032 (-0.044,-0.020)	8.18e-03	0.137131562206081
+INI23023	INI30200_PRS	HTLV-1 env antigen for Human T-Lymphotropic Virus 1	Neutrophill %	-0.031 (-0.043,-0.019)	1.09e-02	0.164606469475325
+INI23017	INI30200_PRS	HBe antigen for Hepatitis B Virus	Neutrophill %	-0.030 (-0.042,-0.018)	1.10e-02	0.164606469475325
+INI23024	INI30150_PRS	HIV-1 gag antigen for Human Immunodeficiency Virus	Eosinophill count	0.031 (0.019,0.043)	1.14e-02	0.164606469475325
+INI23009	INI30140_PRS	Pp 28 antigen for Human Cytomegalovirus	Neutrophill count	0.030 (0.018,0.042)	1.23e-02	0.164606469475325
+INI23021	INI30000_PRS	Sag1 antigen for Toxoplasma gondii	White blood cell count	0.030 (0.018,0.043)	1.24e-02	0.164606469475325
+INI23013	INI30150_PRS	U14 antigen for Human Herpesvirus-7	Eosinophill count	-0.030 (-0.042,-0.018)	1.26e-02	0.164606469475325
+INI23043	INI30000_PRS	Catalase antigen for Helicobacter pylori	White blood cell count	0.029 (0.017,0.041)	1.60e-02	0.192985920343836
+INI23015	INI30190_PRS	K8.1 antigen for Kaposi's Sarcoma-Associated Herpesvirus	Monocyte %	0.029 (0.017,0.042)	1.60e-02	0.192985920343836
+INI23015	INI30150_PRS	K8.1 antigen for Kaposi's Sarcoma-Associated Herpesvirus	Eosinophill count	0.029 (0.017,0.041)	1.64e-02	0.192985920343836
+INI23035	INI30190_PRS	Tarp-D F1 antigen for Chlamydia trachomatis	Monocyte %	0.027 (0.016,0.039)	1.79e-02	0.19944424279672
+INI23001	INI30150_PRS	2mgG unique antigen for Herpes Simplex virus-2	Eosinophill count	0.028 (0.016,0.041)	1.83e-02	0.19944424279672
+INI23019	INI30000_PRS	NS3 antigen for Hepatitis C Virus	White blood cell count	0.028 (0.016,0.040)	1.87e-02	0.19944424279672
+INI23005	INI30150_PRS	ZEBRA antigen for Epstein-Barr Virus	Eosinophill count	0.028 (0.016,0.040)	1.95e-02	0.201421609105304
+INI23007	INI30120_PRS	Pp150 Nter antigen for Human Cytomegalovirus	Lymphocyte count	0.028 (0.016,0.040)	2.04e-02	0.205238357479125
+INI23017	INI30180_PRS	HBe antigen for Hepatitis B Virus	Lymphocyte %	0.026 (0.014,0.038)	2.83e-02	0.266381594686016
+INI23012	INI30180_PRS	P101 k antigen for Human Herpesvirus-6	Lymphocyte %	0.026 (0.014,0.038)	2.87e-02	0.266381594686016
+INI23012	INI30140_PRS	P101 k antigen for Human Herpesvirus-6	Neutrophill count	-0.026 (-0.038,-0.014)	2.88e-02	0.266381594686016
+INI23007	INI30000_PRS	Pp150 Nter antigen for Human Cytomegalovirus	White blood cell count	0.026 (0.014,0.038)	3.12e-02	0.281480909244343
+INI23019	INI30150_PRS	NS3 antigen for Hepatitis C Virus	Eosinophill count	0.025 (0.013,0.037)	3.36e-02	0.285542832903776
+INI23032	INI30150_PRS	L1 antigen for Human Papillomavirus type-18	Eosinophill count	0.026 (0.014,0.038)	3.38e-02	0.285542832903776
+INI23028	INI30180_PRS	MC VP1 antigen for Merkel Cell Polyomavirus	Lymphocyte %	0.026 (0.014,0.038)	3.41e-02	0.285542832903776
+INI23016	INI30180_PRS	HBc antigen for Hepatitis B Virus	Lymphocyte %	0.024 (0.012,0.035)	3.59e-02	0.294065467401403
+INI23000	INI30120_PRS	1gG antigen for Herpes Simplex virus-1	Lymphocyte count	0.025 (0.013,0.037)	3.77e-02	0.29713008397709
+INI23040	INI30150_PRS	VacA antigen for Helicobacter pylori	Eosinophill count	0.025 (0.013,0.037)	3.82e-02	0.29713008397709
+INI23023	INI30190_PRS	HTLV-1 env antigen for Human T-Lymphotropic Virus 1	Monocyte %	0.025 (0.013,0.037)	3.91e-02	0.29713008397709
+INI23044	INI30150_PRS	UreA antigen for Helicobacter pylori	Eosinophill count	0.024 (0.013,0.036)	3.98e-02	0.29713008397709
+INI23040	INI30120_PRS	VacA antigen for Helicobacter pylori	Lymphocyte count	0.025 (0.013,0.037)	4.11e-02	0.29713008397709
+INI23022	INI30140_PRS	HTLV-1 gag antigen for Human T-Lymphotropic Virus 1	Neutrophill count	-0.024 (-0.036,-0.012)	4.14e-02	0.29713008397709
+INI23007	INI30190_PRS	Pp150 Nter antigen for Human Cytomegalovirus	Monocyte %	0.024 (0.012,0.037)	4.30e-02	0.298142843994516
+INI23013	INI30210_PRS	U14 antigen for Human Herpesvirus-7	Eosinophill %	-0.024 (-0.037,-0.012)	4.32e-02	0.298142843994516
+INI23025	INI30120_PRS	HIV-1 env antigen for Human Immunodeficiency Virus	Lymphocyte count	0.024 (0.012,0.036)	4.58e-02	0.300432756418277
+INI23028	INI30120_PRS	MC VP1 antigen for Merkel Cell Polyomavirus	Lymphocyte count	0.024 (0.012,0.037)	4.58e-02	0.300432756418277
+INI23016	INI30200_PRS	HBc antigen for Hepatitis B Virus	Neutrophill %	-0.022 (-0.034,-0.011)	4.63e-02	0.300432756418277
+INI23024	INI30210_PRS	HIV-1 gag antigen for Human Immunodeficiency Virus	Eosinophill %	0.024 (0.012,0.036)	4.74e-02	0.300432756418277
+INI23010	INI30000_PRS	IE1A antigen for Human Herpesvirus-6	White blood cell count	0.024 (0.012,0.036)	4.91e-02	0.300432756418277
+INI23006	INI30210_PRS	EA-D antigen for Epstein-Barr Virus	Eosinophill %	0.024 (0.012,0.036)	4.92e-02	0.300432756418277
+INI23023	INI30180_PRS	HTLV-1 env antigen for Human T-Lymphotropic Virus 1	Lymphocyte %	0.024 (0.012,0.036)	4.95e-02	0.300432756418277
+INI23043	INI30150_PRS	Catalase antigen for Helicobacter pylori	Eosinophill count	0.024 (0.011,0.036)	5.24e-02	0.307371577666704
+INI23015	INI30140_PRS	K8.1 antigen for Kaposi's Sarcoma-Associated Herpesvirus	Neutrophill count	0.024 (0.011,0.036)	5.27e-02	0.307371577666704
+INI23003	INI30000_PRS	VCA p18 antigen for Epstein-Barr Virus	White blood cell count	0.024 (0.011,0.036)	5.33e-02	0.307371577666704
+INI23000	INI30210_PRS	1gG antigen for Herpes Simplex virus-1	Eosinophill %	0.023 (0.011,0.035)	5.56e-02	0.310515946451699
+INI23037	INI30000_PRS	PorB antigen for Chlamydia trachomatis	White blood cell count	0.023 (0.011,0.035)	5.57e-02	0.310515946451699
+INI23025	INI30140_PRS	HIV-1 env antigen for Human Immunodeficiency Virus	Neutrophill count	0.023 (0.011,0.035)	5.74e-02	0.310515946451699
+INI23010	INI30150_PRS	IE1A antigen for Human Herpesvirus-6	Eosinophill count	0.023 (0.011,0.035)	5.78e-02	0.310515946451699
+INI23019	INI30190_PRS	NS3 antigen for Hepatitis C Virus	Monocyte %	0.023 (0.011,0.035)	5.82e-02	0.310515946451699
+INI23006	INI30190_PRS	EA-D antigen for Epstein-Barr Virus	Monocyte %	0.023 (0.011,0.035)	6.16e-02	0.315531917563036
+INI23043	INI30140_PRS	Catalase antigen for Helicobacter pylori	Neutrophill count	0.023 (0.010,0.035)	6.27e-02	0.315531917563036
+INI23040	INI30200_PRS	VacA antigen for Helicobacter pylori	Neutrophill %	-0.022 (-0.034,-0.010)	6.28e-02	0.315531917563036
+INI23027	INI30210_PRS	JC VP1 antigen for Human Polyomavirus JCV	Eosinophill %	-0.023 (-0.035,-0.010)	6.32e-02	0.315531917563036
+INI23019	INI30200_PRS	NS3 antigen for Hepatitis C Virus	Neutrophill %	-0.022 (-0.034,-0.010)	6.36e-02	0.315531917563036
+INI23020	INI30000_PRS	P22 antigen for Toxoplasma gondii	White blood cell count	0.022 (0.010,0.034)	6.77e-02	0.319021884781199
+INI23027	INI30150_PRS	JC VP1 antigen for Human Polyomavirus JCV	Eosinophill count	-0.022 (-0.035,-0.010)	6.83e-02	0.319021884781199
+INI23023	INI30150_PRS	HTLV-1 env antigen for Human T-Lymphotropic Virus 1	Eosinophill count	0.022 (0.010,0.034)	6.85e-02	0.319021884781199
+INI23035	INI30140_PRS	Tarp-D F1 antigen for Chlamydia trachomatis	Neutrophill count	0.021 (0.009,0.032)	6.89e-02	0.319021884781199
+INI23001	INI30210_PRS	2mgG unique antigen for Herpes Simplex virus-2	Eosinophill %	0.022 (0.010,0.034)	6.89e-02	0.319021884781199
+INI23044	INI30000_PRS	UreA antigen for Helicobacter pylori	White blood cell count	0.021 (0.010,0.033)	7.07e-02	0.323277554449411
+INI23025	INI30200_PRS	HIV-1 env antigen for Human Immunodeficiency Virus	Neutrophill %	-0.022 (-0.034,-0.010)	7.26e-02	0.327553933304613
+INI23025	INI30150_PRS	HIV-1 env antigen for Human Immunodeficiency Virus	Eosinophill count	0.022 (0.009,0.034)	7.68e-02	0.342259221848418
+INI23029	INI30200_PRS	L1 antigen for Human Papillomavirus type-16	Neutrophill %	-0.021 (-0.033,-0.009)	7.98e-02	0.348077331667289
+INI23041	INI30190_PRS	OMP antigen for Helicobacter pylori	Monocyte %	0.021 (0.009,0.033)	8.22e-02	0.348077331667289
+INI23021	INI30120_PRS	Sag1 antigen for Toxoplasma gondii	Lymphocyte count	0.021 (0.009,0.033)	8.23e-02	0.348077331667289
+INI23037	INI30190_PRS	PorB antigen for Chlamydia trachomatis	Monocyte %	0.021 (0.009,0.033)	8.25e-02	0.348077331667289
+INI23016	INI30210_PRS	HBc antigen for Hepatitis B Virus	Eosinophill %	0.019 (0.008,0.031)	8.45e-02	0.348077331667289
+INI23025	INI30180_PRS	HIV-1 env antigen for Human Immunodeficiency Virus	Lymphocyte %	0.021 (0.009,0.033)	8.63e-02	0.348077331667289
+INI23008	INI30180_PRS	Pp 52 antigen for Human Cytomegalovirus	Lymphocyte %	0.021 (0.009,0.033)	8.63e-02	0.348077331667289
+INI23038	INI30140_PRS	PGP3 antigen for Chlamydia trachomatis	Neutrophill count	0.019 (0.008,0.030)	8.70e-02	0.348077331667289
+INI23008	INI30140_PRS	Pp 52 antigen for Human Cytomegalovirus	Neutrophill count	0.021 (0.009,0.033)	8.70e-02	0.348077331667289
+INI23017	INI30190_PRS	HBe antigen for Hepatitis B Virus	Monocyte %	0.020 (0.008,0.032)	8.83e-02	0.348077331667289
+INI23035	INI30180_PRS	Tarp-D F1 antigen for Chlamydia trachomatis	Lymphocyte %	-0.020 (-0.031,-0.008)	8.90e-02	0.348077331667289
+INI23014	INI30120_PRS	LANA antigen for Kaposi's Sarcoma-Associated Herpesvirus	Lymphocyte count	0.020 (0.008,0.032)	9.11e-02	0.350027697146162
+INI23025	INI30190_PRS	HIV-1 env antigen for Human Immunodeficiency Virus	Monocyte %	0.021 (0.008,0.033)	9.17e-02	0.350027697146162
+INI23030	INI30200_PRS	E6 antigen for Human Papillomavirus type-16	Neutrophill %	-0.019 (-0.031,-0.008)	9.54e-02	0.350027697146162
+INI23019	INI30120_PRS	NS3 antigen for Hepatitis C Virus	Lymphocyte count	0.020 (0.008,0.032)	9.56e-02	0.350027697146162
+INI23040	INI30190_PRS	VacA antigen for Helicobacter pylori	Monocyte %	0.020 (0.008,0.032)	9.59e-02	0.350027697146162
+INI23027	INI30180_PRS	JC VP1 antigen for Human Polyomavirus JCV	Lymphocyte %	0.020 (0.008,0.032)	9.75e-02	0.350027697146162
+INI23024	INI30180_PRS	HIV-1 gag antigen for Human Immunodeficiency Virus	Lymphocyte %	0.020 (0.008,0.032)	9.88e-02	0.350027697146162
+INI23037	INI30140_PRS	PorB antigen for Chlamydia trachomatis	Neutrophill count	0.020 (0.008,0.032)	9.89e-02	0.350027697146162
+INI23022	INI30200_PRS	HTLV-1 gag antigen for Human T-Lymphotropic Virus 1	Neutrophill %	-0.020 (-0.032,-0.008)	1.00e-01	0.350027697146162
+INI23036	INI30150_PRS	Tarp-D F2 antigen for Chlamydia trachomatis	Eosinophill count	0.020 (0.008,0.032)	1.02e-01	0.350027697146162
+INI23031	INI30190_PRS	E7 antigen for Human Papillomavirus type-16	Monocyte %	0.019 (0.007,0.031)	1.02e-01	0.350027697146162
+INI23015	INI30200_PRS	K8.1 antigen for Kaposi's Sarcoma-Associated Herpesvirus	Neutrophill %	-0.020 (-0.032,-0.008)	1.02e-01	0.350027697146162
+INI23041	INI30000_PRS	OMP antigen for Helicobacter pylori	White blood cell count	0.020 (0.008,0.032)	1.02e-01	0.350027697146162
+INI23036	INI30120_PRS	Tarp-D F2 antigen for Chlamydia trachomatis	Lymphocyte count	0.019 (0.007,0.032)	1.09e-01	0.366403059405893
+INI23032	INI30120_PRS	L1 antigen for Human Papillomavirus type-18	Lymphocyte count	0.019 (0.007,0.032)	1.09e-01	0.366403059405893
+INI23044	INI30210_PRS	UreA antigen for Helicobacter pylori	Eosinophill %	0.019 (0.007,0.031)	1.13e-01	0.375427673662099
+INI23005	INI30190_PRS	ZEBRA antigen for Epstein-Barr Virus	Monocyte %	0.019 (0.007,0.031)	1.16e-01	0.377657572672291
+INI23029	INI30180_PRS	L1 antigen for Human Papillomavirus type-16	Lymphocyte %	0.019 (0.007,0.031)	1.19e-01	0.377657572672291
+INI23002	INI30120_PRS	GE / gI antigen for Varicella Zoster Virus	Lymphocyte count	-0.019 (-0.031,-0.007)	1.19e-01	0.377657572672291
+INI23030	INI30190_PRS	E6 antigen for Human Papillomavirus type-16	Monocyte %	0.018 (0.006,0.030)	1.19e-01	0.377657572672291
+INI23029	INI30150_PRS	L1 antigen for Human Papillomavirus type-16	Eosinophill count	0.019 (0.007,0.031)	1.19e-01	0.377657572672291
+INI23001	INI30000_PRS	2mgG unique antigen for Herpes Simplex virus-2	White blood cell count	0.019 (0.007,0.031)	1.21e-01	0.377657572672291
+INI23027	INI30120_PRS	JC VP1 antigen for Human Polyomavirus JCV	Lymphocyte count	0.019 (0.007,0.031)	1.22e-01	0.377657572672291
+INI23021	INI30150_PRS	Sag1 antigen for Toxoplasma gondii	Eosinophill count	0.019 (0.007,0.031)	1.23e-01	0.377657572672291
+INI23018	INI30190_PRS	Core antigen for Hepatitis C Virus	Monocyte %	0.017 (0.006,0.027)	1.24e-01	0.377657572672291
+INI23042	INI30000_PRS	GroEL antigen for Helicobacter pylori	White blood cell count	0.018 (0.006,0.030)	1.24e-01	0.377657572672291
+INI23044	INI30140_PRS	UreA antigen for Helicobacter pylori	Neutrophill count	0.018 (0.006,0.030)	1.26e-01	0.379352284451447
+INI23038	INI30190_PRS	PGP3 antigen for Chlamydia trachomatis	Monocyte %	0.017 (0.006,0.028)	1.30e-01	0.387779072038548
+INI23021	INI30140_PRS	Sag1 antigen for Toxoplasma gondii	Neutrophill count	0.018 (0.006,0.030)	1.32e-01	0.388978142968058
+INI23011	INI30190_PRS	IE1B antigen for Human Herpesvirus-6	Monocyte %	0.018 (0.006,0.031)	1.34e-01	0.391719692913862
+INI23018	INI30200_PRS	Core antigen for Hepatitis C Virus	Neutrophill %	-0.016 (-0.027,-0.005)	1.36e-01	0.393879009485092
+INI23009	INI30190_PRS	Pp 28 antigen for Human Cytomegalovirus	Monocyte %	0.018 (0.006,0.030)	1.39e-01	0.393879009485092
+INI23029	INI30140_PRS	L1 antigen for Human Papillomavirus type-16	Neutrophill count	0.018 (0.006,0.030)	1.41e-01	0.393879009485092
+INI23042	INI30120_PRS	GroEL antigen for Helicobacter pylori	Lymphocyte count	0.017 (0.005,0.029)	1.42e-01	0.393879009485092
+INI23020	INI30140_PRS	P22 antigen for Toxoplasma gondii	Neutrophill count	0.018 (0.006,0.030)	1.43e-01	0.393879009485092
+INI23040	INI30210_PRS	VacA antigen for Helicobacter pylori	Eosinophill %	0.018 (0.006,0.030)	1.44e-01	0.393879009485092
+INI23014	INI30150_PRS	LANA antigen for Kaposi's Sarcoma-Associated Herpesvirus	Eosinophill count	0.017 (0.005,0.029)	1.45e-01	0.393879009485092
+INI23006	INI30150_PRS	EA-D antigen for Epstein-Barr Virus	Eosinophill count	0.018 (0.005,0.030)	1.47e-01	0.393879009485092
+INI23036	INI30000_PRS	Tarp-D F2 antigen for Chlamydia trachomatis	White blood cell count	0.018 (0.005,0.030)	1.47e-01	0.393879009485092
+INI23032	INI30200_PRS	L1 antigen for Human Papillomavirus type-18	Neutrophill %	-0.018 (-0.030,-0.005)	1.47e-01	0.393879009485092
+INI23023	INI30120_PRS	HTLV-1 env antigen for Human T-Lymphotropic Virus 1	Lymphocyte count	0.017 (0.005,0.029)	1.49e-01	0.393879009485092
+INI23016	INI30150_PRS	HBc antigen for Hepatitis B Virus	Eosinophill count	0.016 (0.005,0.027)	1.50e-01	0.393879009485092
+INI23005	INI30120_PRS	ZEBRA antigen for Epstein-Barr Virus	Lymphocyte count	-0.017 (-0.030,-0.005)	1.50e-01	0.393879009485092
+INI23013	INI30200_PRS	U14 antigen for Human Herpesvirus-7	Neutrophill %	-0.017 (-0.029,-0.005)	1.51e-01	0.393879009485092
+INI23031	INI30200_PRS	E7 antigen for Human Papillomavirus type-16	Neutrophill %	-0.017 (-0.029,-0.005)	1.51e-01	0.393879009485092
+INI23008	INI30200_PRS	Pp 52 antigen for Human Cytomegalovirus	Neutrophill %	-0.017 (-0.029,-0.005)	1.55e-01	0.40075035616087
+INI23032	INI30210_PRS	L1 antigen for Human Papillomavirus type-18	Eosinophill %	0.017 (0.005,0.029)	1.57e-01	0.402577965495652
+INI23032	INI30180_PRS	L1 antigen for Human Papillomavirus type-18	Lymphocyte %	0.017 (0.005,0.029)	1.59e-01	0.405034270201035
+INI23001	INI30190_PRS	2mgG unique antigen for Herpes Simplex virus-2	Monocyte %	0.017 (0.005,0.029)	1.60e-01	0.405034270201035
+INI23015	INI30210_PRS	K8.1 antigen for Kaposi's Sarcoma-Associated Herpesvirus	Eosinophill %	0.017 (0.005,0.029)	1.62e-01	0.407217040176898
+INI23006	INI30200_PRS	EA-D antigen for Epstein-Barr Virus	Neutrophill %	-0.017 (-0.029,-0.005)	1.64e-01	0.408332464900396
+INI23035	INI30120_PRS	Tarp-D F1 antigen for Chlamydia trachomatis	Lymphocyte count	-0.016 (-0.028,-0.004)	1.66e-01	0.411061646987022
+INI23014	INI30200_PRS	LANA antigen for Kaposi's Sarcoma-Associated Herpesvirus	Neutrophill %	-0.016 (-0.028,-0.004)	1.68e-01	0.41475956354337
+INI23004	INI30210_PRS	EBNA-1 antigen for Epstein-Barr Virus	Eosinophill %	0.016 (0.004,0.029)	1.75e-01	0.42245991313844
+INI23038	INI30000_PRS	PGP3 antigen for Chlamydia trachomatis	White blood cell count	0.015 (0.004,0.026)	1.79e-01	0.42245991313844
+INI23007	INI30180_PRS	Pp150 Nter antigen for Human Cytomegalovirus	Lymphocyte %	0.016 (0.004,0.028)	1.81e-01	0.42245991313844
+INI23009	INI30180_PRS	Pp 28 antigen for Human Cytomegalovirus	Lymphocyte %	0.016 (0.004,0.028)	1.81e-01	0.42245991313844
+INI23023	INI30000_PRS	HTLV-1 env antigen for Human T-Lymphotropic Virus 1	White blood cell count	0.016 (0.004,0.028)	1.82e-01	0.42245991313844
+INI23019	INI30210_PRS	NS3 antigen for Hepatitis C Virus	Eosinophill %	0.016 (0.004,0.028)	1.82e-01	0.42245991313844
+INI23038	INI30120_PRS	PGP3 antigen for Chlamydia trachomatis	Lymphocyte count	-0.015 (-0.026,-0.004)	1.82e-01	0.42245991313844
+INI23007	INI30140_PRS	Pp150 Nter antigen for Human Cytomegalovirus	Neutrophill count	0.016 (0.004,0.028)	1.83e-01	0.42245991313844
+INI23013	INI30140_PRS	U14 antigen for Human Herpesvirus-7	Neutrophill count	-0.016 (-0.028,-0.004)	1.83e-01	0.42245991313844
+INI23034	INI30140_PRS	Momp A antigen for Chlamydia trachomatis	Neutrophill count	0.016 (0.004,0.028)	1.84e-01	0.42245991313844
+INI23007	INI30200_PRS	Pp150 Nter antigen for Human Cytomegalovirus	Neutrophill %	-0.016 (-0.028,-0.004)	1.89e-01	0.426439812799546
+INI23038	INI30180_PRS	PGP3 antigen for Chlamydia trachomatis	Lymphocyte %	-0.015 (-0.026,-0.004)	1.89e-01	0.426439812799546
+INI23022	INI30000_PRS	HTLV-1 gag antigen for Human T-Lymphotropic Virus 1	White blood cell count	-0.016 (-0.028,-0.004)	1.89e-01	0.426439812799546
+INI23014	INI30180_PRS	LANA antigen for Kaposi's Sarcoma-Associated Herpesvirus	Lymphocyte %	0.015 (0.003,0.027)	1.95e-01	0.43643244301951
+INI23003	INI30140_PRS	VCA p18 antigen for Epstein-Barr Virus	Neutrophill count	0.016 (0.004,0.028)	1.96e-01	0.43643244301951
+INI23016	INI30120_PRS	HBc antigen for Hepatitis B Virus	Lymphocyte count	0.014 (0.003,0.026)	1.98e-01	0.438361767423635
+INI23005	INI30140_PRS	ZEBRA antigen for Epstein-Barr Virus	Neutrophill count	0.015 (0.003,0.028)	2.02e-01	0.443509354781038
+INI23044	INI30120_PRS	UreA antigen for Helicobacter pylori	Lymphocyte count	0.015 (0.003,0.027)	2.05e-01	0.448292782706691
+INI23036	INI30140_PRS	Tarp-D F2 antigen for Chlamydia trachomatis	Neutrophill count	0.015 (0.003,0.027)	2.07e-01	0.44885691318954
+INI23018	INI30210_PRS	Core antigen for Hepatitis C Virus	Eosinophill %	0.014 (0.003,0.024)	2.09e-01	0.450415561277371
+INI23024	INI30140_PRS	HIV-1 gag antigen for Human Immunodeficiency Virus	Neutrophill count	-0.015 (-0.027,-0.003)	2.16e-01	0.460822971990652
+INI23011	INI30200_PRS	IE1B antigen for Human Herpesvirus-6	Neutrophill %	-0.015 (-0.027,-0.003)	2.16e-01	0.460822971990652
+INI23003	INI30150_PRS	VCA p18 antigen for Epstein-Barr Virus	Eosinophill count	0.015 (0.003,0.027)	2.18e-01	0.461859454696566
+INI23021	INI30190_PRS	Sag1 antigen for Toxoplasma gondii	Monocyte %	0.015 (0.003,0.027)	2.20e-01	0.463572134962951
+INI23008	INI30150_PRS	Pp 52 antigen for Human Cytomegalovirus	Eosinophill count	0.015 (0.003,0.027)	2.24e-01	0.466937008413564
+INI23030	INI30210_PRS	E6 antigen for Human Papillomavirus type-16	Eosinophill %	0.014 (0.002,0.026)	2.24e-01	0.466937008413564
+INI23021	INI30200_PRS	Sag1 antigen for Toxoplasma gondii	Neutrophill %	-0.015 (-0.027,-0.003)	2.27e-01	0.469119110260874
+INI23009	INI30200_PRS	Pp 28 antigen for Human Cytomegalovirus	Neutrophill %	-0.014 (-0.026,-0.002)	2.39e-01	0.492937260212332
+INI23019	INI30180_PRS	NS3 antigen for Hepatitis C Virus	Lymphocyte %	0.014 (0.002,0.026)	2.41e-01	0.492997605657861
+INI23012	INI30120_PRS	P101 k antigen for Human Herpesvirus-6	Lymphocyte count	0.014 (0.002,0.026)	2.42e-01	0.492997605657861
+INI23015	INI30180_PRS	K8.1 antigen for Kaposi's Sarcoma-Associated Herpesvirus	Lymphocyte %	0.014 (0.002,0.026)	2.46e-01	0.497697618148208
+INI23042	INI30140_PRS	GroEL antigen for Helicobacter pylori	Neutrophill count	0.013 (0.002,0.025)	2.48e-01	0.498712419800678
+INI23001	INI30200_PRS	2mgG unique antigen for Herpes Simplex virus-2	Neutrophill %	-0.014 (-0.026,-0.002)	2.55e-01	0.510608435128726
+INI23041	INI30140_PRS	OMP antigen for Helicobacter pylori	Neutrophill count	0.014 (0.002,0.026)	2.59e-01	0.511527119373913
+INI23009	INI30150_PRS	Pp 28 antigen for Human Cytomegalovirus	Eosinophill count	0.014 (0.002,0.026)	2.59e-01	0.511527119373913
+INI23040	INI30180_PRS	VacA antigen for Helicobacter pylori	Lymphocyte %	0.014 (0.002,0.026)	2.60e-01	0.511527119373913
+INI23030	INI30000_PRS	E6 antigen for Human Papillomavirus type-16	White blood cell count	0.013 (0.001,0.024)	2.66e-01	0.515162453038569
+INI23031	INI30120_PRS	E7 antigen for Human Papillomavirus type-16	Lymphocyte count	0.013 (0.001,0.025)	2.66e-01	0.515162453038569
+INI23032	INI30000_PRS	L1 antigen for Human Papillomavirus type-18	White blood cell count	0.014 (0.001,0.026)	2.66e-01	0.515162453038569
+INI23021	INI30180_PRS	Sag1 antigen for Toxoplasma gondii	Lymphocyte %	0.013 (0.001,0.026)	2.70e-01	0.516859760472482
+INI23042	INI30150_PRS	GroEL antigen for Helicobacter pylori	Eosinophill count	0.013 (0.001,0.024)	2.70e-01	0.516859760472482
+INI23043	INI30120_PRS	Catalase antigen for Helicobacter pylori	Lymphocyte count	0.013 (0.001,0.025)	2.73e-01	0.51941442255066
+INI23040	INI30000_PRS	VacA antigen for Helicobacter pylori	White blood cell count	0.013 (0.001,0.025)	2.77e-01	0.522439759100654
+INI23003	INI30200_PRS	VCA p18 antigen for Epstein-Barr Virus	Neutrophill %	-0.013 (-0.025,-0.001)	2.78e-01	0.522439759100654
+INI23029	INI30190_PRS	L1 antigen for Human Papillomavirus type-16	Monocyte %	0.013 (0.001,0.025)	2.79e-01	0.522439759100654
+INI23043	INI30200_PRS	Catalase antigen for Helicobacter pylori	Neutrophill %	-0.013 (-0.025,-0.001)	2.91e-01	0.542057636352415
+INI23014	INI30140_PRS	LANA antigen for Kaposi's Sarcoma-Associated Herpesvirus	Neutrophill count	0.012 (0.001,0.024)	2.93e-01	0.542382844247869
+INI23030	INI30120_PRS	E6 antigen for Human Papillomavirus type-16	Lymphocyte count	0.012 (0.001,0.024)	2.96e-01	0.542800105787214
+INI23011	INI30000_PRS	IE1B antigen for Human Herpesvirus-6	White blood cell count	0.013 (0.001,0.025)	2.97e-01	0.542800105787214
+INI23022	INI30190_PRS	HTLV-1 gag antigen for Human T-Lymphotropic Virus 1	Monocyte %	0.012 (0.000,0.024)	2.99e-01	0.542800105787214
+INI23033	INI30140_PRS	Momp D antigen for Chlamydia trachomatis	Neutrophill count	0.012 (0.000,0.024)	3.00e-01	0.542800105787214
+INI23023	INI30210_PRS	HTLV-1 env antigen for Human T-Lymphotropic Virus 1	Eosinophill %	0.012 (0.000,0.024)	3.06e-01	0.542800105787214
+INI23025	INI30210_PRS	HIV-1 env antigen for Human Immunodeficiency Virus	Eosinophill %	0.012 (0.000,0.025)	3.07e-01	0.542800105787214
+INI23044	INI30190_PRS	UreA antigen for Helicobacter pylori	Monocyte %	0.012 (0.000,0.024)	3.08e-01	0.542800105787214
+INI23043	INI30210_PRS	Catalase antigen for Helicobacter pylori	Eosinophill %	0.012 (0.000,0.024)	3.09e-01	0.542800105787214
+INI23039	INI30200_PRS	CagA antigen for Helicobacter pylori	Neutrophill %	-0.017 (-0.034,-0.000)	3.10e-01	0.542800105787214
+INI23028	INI30000_PRS	MC VP1 antigen for Merkel Cell Polyomavirus	White blood cell count	0.012 (0.000,0.025)	3.10e-01	0.542800105787214
+INI23035	INI30000_PRS	Tarp-D F1 antigen for Chlamydia trachomatis	White blood cell count	0.012 (0.000,0.023)	3.10e-01	0.542800105787214
+INI23013	INI30190_PRS	U14 antigen for Human Herpesvirus-7	Monocyte %	0.012 (0.000,0.024)	3.11e-01	0.542800105787214
+INI23020	INI30120_PRS	P22 antigen for Toxoplasma gondii	Lymphocyte count	0.012 (-0.000,0.024)	3.23e-01	0.55968791128701
+INI23004	INI30200_PRS	EBNA-1 antigen for Epstein-Barr Virus	Neutrophill %	-0.012 (-0.024,0.000)	3.34e-01	0.576438497110222
+INI23016	INI30140_PRS	HBc antigen for Hepatitis B Virus	Neutrophill count	-0.011 (-0.022,0.000)	3.37e-01	0.576438497110222
+INI23022	INI30180_PRS	HTLV-1 gag antigen for Human T-Lymphotropic Virus 1	Lymphocyte %	0.011 (-0.000,0.023)	3.37e-01	0.576438497110222
+INI23003	INI30180_PRS	VCA p18 antigen for Epstein-Barr Virus	Lymphocyte %	0.012 (-0.001,0.024)	3.42e-01	0.580044676376121
+INI23032	INI30190_PRS	L1 antigen for Human Papillomavirus type-18	Monocyte %	0.011 (-0.001,0.024)	3.45e-01	0.580044676376121
+INI23043	INI30190_PRS	Catalase antigen for Helicobacter pylori	Monocyte %	0.011 (-0.001,0.024)	3.46e-01	0.580044676376121
+INI23017	INI30210_PRS	HBe antigen for Hepatitis B Virus	Eosinophill %	0.011 (-0.001,0.023)	3.46e-01	0.580044676376121
+INI23018	INI30150_PRS	Core antigen for Hepatitis C Virus	Eosinophill count	0.010 (-0.001,0.021)	3.49e-01	0.580919902129336
+INI23017	INI30140_PRS	HBe antigen for Hepatitis B Virus	Neutrophill count	-0.011 (-0.023,0.001)	3.50e-01	0.580919902129336
+INI23003	INI30210_PRS	VCA p18 antigen for Epstein-Barr Virus	Eosinophill %	0.011 (-0.001,0.024)	3.54e-01	0.58344520347559
+INI23000	INI30200_PRS	1gG antigen for Herpes Simplex virus-1	Neutrophill %	-0.011 (-0.023,0.001)	3.55e-01	0.58344520347559
+INI23022	INI30150_PRS	HTLV-1 gag antigen for Human T-Lymphotropic Virus 1	Eosinophill count	0.011 (-0.001,0.023)	3.58e-01	0.58606085473573
+INI23034	INI30000_PRS	Momp A antigen for Chlamydia trachomatis	White blood cell count	0.011 (-0.001,0.023)	3.61e-01	0.587986025861541
+INI23018	INI30120_PRS	Core antigen for Hepatitis C Virus	Lymphocyte count	0.010 (-0.001,0.021)	3.63e-01	0.589258137743923
+INI23004	INI30150_PRS	EBNA-1 antigen for Epstein-Barr Virus	Eosinophill count	0.011 (-0.001,0.023)	3.67e-01	0.592389079404185
+INI23010	INI30210_PRS	IE1A antigen for Human Herpesvirus-6	Eosinophill %	0.011 (-0.001,0.023)	3.69e-01	0.592389079404185
+INI23030	INI30180_PRS	E6 antigen for Human Papillomavirus type-16	Lymphocyte %	0.010 (-0.001,0.022)	3.74e-01	0.595483947331104
+INI23019	INI30140_PRS	NS3 antigen for Hepatitis C Virus	Neutrophill count	0.011 (-0.001,0.023)	3.74e-01	0.595483947331104
+INI23005	INI30200_PRS	ZEBRA antigen for Epstein-Barr Virus	Neutrophill %	0.011 (-0.001,0.023)	3.78e-01	0.599730469579486
+INI23039	INI30190_PRS	CagA antigen for Helicobacter pylori	Monocyte %	0.015 (-0.002,0.032)	3.83e-01	0.605290819036888
+INI23034	INI30150_PRS	Momp A antigen for Chlamydia trachomatis	Eosinophill count	0.011 (-0.002,0.023)	3.87e-01	0.607946554512622
+INI23035	INI30210_PRS	Tarp-D F1 antigen for Chlamydia trachomatis	Eosinophill %	-0.010 (-0.021,0.002)	3.95e-01	0.615839917506485
+INI23031	INI30150_PRS	E7 antigen for Human Papillomavirus type-16	Eosinophill count	0.010 (-0.002,0.022)	3.96e-01	0.615839917506485
+INI23035	INI30200_PRS	Tarp-D F1 antigen for Chlamydia trachomatis	Neutrophill %	0.010 (-0.002,0.021)	4.00e-01	0.615839917506485
+INI23033	INI30000_PRS	Momp D antigen for Chlamydia trachomatis	White blood cell count	0.010 (-0.002,0.022)	4.01e-01	0.615839917506485
+INI23036	INI30190_PRS	Tarp-D F2 antigen for Chlamydia trachomatis	Monocyte %	0.010 (-0.002,0.022)	4.02e-01	0.615839917506485
+INI23042	INI30200_PRS	GroEL antigen for Helicobacter pylori	Neutrophill %	-0.010 (-0.021,0.002)	4.04e-01	0.615839917506485
+INI23017	INI30150_PRS	HBe antigen for Hepatitis B Virus	Eosinophill count	0.010 (-0.002,0.022)	4.04e-01	0.615839917506485
+INI23003	INI30120_PRS	VCA p18 antigen for Epstein-Barr Virus	Lymphocyte count	0.010 (-0.002,0.022)	4.07e-01	0.615839917506485
+INI23031	INI30180_PRS	E7 antigen for Human Papillomavirus type-16	Lymphocyte %	0.010 (-0.002,0.022)	4.10e-01	0.615839917506485
+INI23033	INI30190_PRS	Momp D antigen for Chlamydia trachomatis	Monocyte %	0.010 (-0.002,0.022)	4.10e-01	0.615839917506485
+INI23011	INI30150_PRS	IE1B antigen for Human Herpesvirus-6	Eosinophill count	0.010 (-0.002,0.022)	4.12e-01	0.615839917506485
+INI23028	INI30210_PRS	MC VP1 antigen for Merkel Cell Polyomavirus	Eosinophill %	-0.010 (-0.022,0.002)	4.13e-01	0.615839917506485
+INI23016	INI30190_PRS	HBc antigen for Hepatitis B Virus	Monocyte %	0.009 (-0.002,0.020)	4.15e-01	0.616251449515566
+INI23013	INI30120_PRS	U14 antigen for Human Herpesvirus-7	Lymphocyte count	-0.010 (-0.022,0.002)	4.19e-01	0.61844462566532
+INI23005	INI30000_PRS	ZEBRA antigen for Epstein-Barr Virus	White blood cell count	0.010 (-0.002,0.022)	4.20e-01	0.61844462566532
+INI23013	INI30000_PRS	U14 antigen for Human Herpesvirus-7	White blood cell count	-0.010 (-0.022,0.002)	4.25e-01	0.623493101266383
+INI23012	INI30190_PRS	P101 k antigen for Human Herpesvirus-6	Monocyte %	0.009 (-0.003,0.021)	4.35e-01	0.635376825040787
+INI23011	INI30140_PRS	IE1B antigen for Human Herpesvirus-6	Neutrophill count	0.009 (-0.003,0.022)	4.47e-01	0.649095505954965
+INI23039	INI30150_PRS	CagA antigen for Helicobacter pylori	Eosinophill count	0.013 (-0.004,0.030)	4.48e-01	0.649095505954965
+INI23002	INI30200_PRS	GE / gI antigen for Varicella Zoster Virus	Neutrophill %	0.009 (-0.003,0.021)	4.52e-01	0.652741360619597
+INI23018	INI30180_PRS	Core antigen for Hepatitis C Virus	Lymphocyte %	0.008 (-0.003,0.019)	4.66e-01	0.668914510741982
+INI23012	INI30000_PRS	P101 k antigen for Human Herpesvirus-6	White blood cell count	-0.009 (-0.020,0.003)	4.68e-01	0.668914510741982
+INI23027	INI30140_PRS	JC VP1 antigen for Human Polyomavirus JCV	Neutrophill count	-0.009 (-0.021,0.003)	4.69e-01	0.668914510741982
+INI23031	INI30000_PRS	E7 antigen for Human Papillomavirus type-16	White blood cell count	0.008 (-0.003,0.020)	4.75e-01	0.674078867090272
+INI23012	INI30210_PRS	P101 k antigen for Human Herpesvirus-6	Eosinophill %	-0.008 (-0.020,0.003)	4.82e-01	0.681093879886699
+INI23027	INI30200_PRS	JC VP1 antigen for Human Polyomavirus JCV	Neutrophill %	-0.009 (-0.021,0.004)	4.85e-01	0.68244889572435
+INI23008	INI30190_PRS	Pp 52 antigen for Human Cytomegalovirus	Monocyte %	0.008 (-0.004,0.020)	4.90e-01	0.68741235818879
+INI23044	INI30200_PRS	UreA antigen for Helicobacter pylori	Neutrophill %	-0.008 (-0.020,0.004)	4.92e-01	0.687549022950638
+INI23030	INI30150_PRS	E6 antigen for Human Papillomavirus type-16	Eosinophill count	0.008 (-0.004,0.019)	4.94e-01	0.687817039489
+INI23041	INI30150_PRS	OMP antigen for Helicobacter pylori	Eosinophill count	0.008 (-0.004,0.020)	4.97e-01	0.689384263153061
+INI23039	INI30210_PRS	CagA antigen for Helicobacter pylori	Eosinophill %	0.011 (-0.006,0.028)	5.04e-01	0.694816661056035
+INI23034	INI30180_PRS	Momp A antigen for Chlamydia trachomatis	Lymphocyte %	-0.008 (-0.020,0.004)	5.05e-01	0.694816661056035
+INI23014	INI30190_PRS	LANA antigen for Kaposi's Sarcoma-Associated Herpesvirus	Monocyte %	0.008 (-0.004,0.019)	5.10e-01	0.697965673574747
+INI23012	INI30150_PRS	P101 k antigen for Human Herpesvirus-6	Eosinophill count	-0.008 (-0.019,0.004)	5.17e-01	0.704860182874297
+INI23033	INI30120_PRS	Momp D antigen for Chlamydia trachomatis	Lymphocyte count	-0.008 (-0.020,0.004)	5.22e-01	0.70938892441285
+INI23039	INI30140_PRS	CagA antigen for Helicobacter pylori	Neutrophill count	0.011 (-0.006,0.028)	5.28e-01	0.714846718785281
+INI23004	INI30190_PRS	EBNA-1 antigen for Epstein-Barr Virus	Monocyte %	0.008 (-0.005,0.020)	5.33e-01	0.718589841053867
+INI23001	INI30140_PRS	2mgG unique antigen for Herpes Simplex virus-2	Neutrophill count	0.007 (-0.005,0.020)	5.35e-01	0.718987578928255
+INI23028	INI30200_PRS	MC VP1 antigen for Merkel Cell Polyomavirus	Neutrophill %	-0.008 (-0.020,0.005)	5.38e-01	0.719785023027235
+INI23037	INI30120_PRS	PorB antigen for Chlamydia trachomatis	Lymphocyte count	0.007 (-0.005,0.020)	5.41e-01	0.721240224746011
+INI23028	INI30140_PRS	MC VP1 antigen for Merkel Cell Polyomavirus	Neutrophill count	0.007 (-0.005,0.020)	5.49e-01	0.729500788932392
+INI23028	INI30150_PRS	MC VP1 antigen for Merkel Cell Polyomavirus	Eosinophill count	-0.007 (-0.019,0.005)	5.53e-01	0.729500788932392
+INI23041	INI30200_PRS	OMP antigen for Helicobacter pylori	Neutrophill %	-0.007 (-0.019,0.005)	5.53e-01	0.729500788932392
+INI23038	INI30200_PRS	PGP3 antigen for Chlamydia trachomatis	Neutrophill %	0.007 (-0.005,0.018)	5.63e-01	0.738539049680097
+INI23033	INI30150_PRS	Momp D antigen for Chlamydia trachomatis	Eosinophill count	0.007 (-0.005,0.019)	5.65e-01	0.738539049680097
+INI23039	INI30180_PRS	CagA antigen for Helicobacter pylori	Lymphocyte %	-0.010 (-0.027,0.007)	5.66e-01	0.738539049680097
+INI23002	INI30140_PRS	GE / gI antigen for Varicella Zoster Virus	Neutrophill count	0.007 (-0.005,0.019)	5.70e-01	0.740722752914844
+INI23031	INI30210_PRS	E7 antigen for Human Papillomavirus type-16	Eosinophill %	0.007 (-0.005,0.018)	5.74e-01	0.742766159440867
+INI23022	INI30210_PRS	HTLV-1 gag antigen for Human T-Lymphotropic Virus 1	Eosinophill %	0.007 (-0.005,0.019)	5.76e-01	0.742766159440867
+INI23036	INI30210_PRS	Tarp-D F2 antigen for Chlamydia trachomatis	Eosinophill %	0.007 (-0.005,0.019)	5.81e-01	0.747035251161831
+INI23029	INI30210_PRS	L1 antigen for Human Papillomavirus type-16	Eosinophill %	0.007 (-0.006,0.019)	5.91e-01	0.75687521923254
+INI23043	INI30180_PRS	Catalase antigen for Helicobacter pylori	Lymphocyte %	0.006 (-0.006,0.019)	5.95e-01	0.75687521923254
+INI23000	INI30190_PRS	1gG antigen for Herpes Simplex virus-1	Monocyte %	0.006 (-0.006,0.019)	5.96e-01	0.75687521923254
+INI23033	INI30180_PRS	Momp D antigen for Chlamydia trachomatis	Lymphocyte %	-0.006 (-0.018,0.006)	5.98e-01	0.756984905401706
+INI23037	INI30200_PRS	PorB antigen for Chlamydia trachomatis	Neutrophill %	-0.006 (-0.018,0.006)	6.18e-01	0.779815901461931
+INI23018	INI30000_PRS	Core antigen for Hepatitis C Virus	White blood cell count	0.005 (-0.006,0.016)	6.25e-01	0.782208818686156
+INI23020	INI30190_PRS	P22 antigen for Toxoplasma gondii	Monocyte %	-0.006 (-0.018,0.006)	6.27e-01	0.782208818686156
+INI23032	INI30140_PRS	L1 antigen for Human Papillomavirus type-18	Neutrophill count	0.006 (-0.006,0.018)	6.29e-01	0.782208818686156
+INI23008	INI30210_PRS	Pp 52 antigen for Human Cytomegalovirus	Eosinophill %	0.006 (-0.006,0.018)	6.33e-01	0.782208818686156
+INI23044	INI30180_PRS	UreA antigen for Helicobacter pylori	Lymphocyte %	0.006 (-0.006,0.018)	6.33e-01	0.782208818686156
+INI23013	INI30180_PRS	U14 antigen for Human Herpesvirus-7	Lymphocyte %	0.006 (-0.006,0.018)	6.33e-01	0.782208818686156
+INI23037	INI30180_PRS	PorB antigen for Chlamydia trachomatis	Lymphocyte %	0.006 (-0.006,0.018)	6.36e-01	0.782216733522718
+INI23039	INI30120_PRS	CagA antigen for Helicobacter pylori	Lymphocyte count	0.008 (-0.009,0.025)	6.41e-01	0.782216733522718
+INI23011	INI30180_PRS	IE1B antigen for Human Herpesvirus-6	Lymphocyte %	0.006 (-0.007,0.018)	6.42e-01	0.782216733522718
+INI23014	INI30210_PRS	LANA antigen for Kaposi's Sarcoma-Associated Herpesvirus	Eosinophill %	0.005 (-0.006,0.017)	6.43e-01	0.782216733522718
+INI23006	INI30120_PRS	EA-D antigen for Epstein-Barr Virus	Lymphocyte count	-0.006 (-0.018,0.007)	6.44e-01	0.782216733522718
+INI23007	INI30150_PRS	Pp150 Nter antigen for Human Cytomegalovirus	Eosinophill count	0.005 (-0.007,0.018)	6.52e-01	0.786378844116362
+INI23039	INI30000_PRS	CagA antigen for Helicobacter pylori	White blood cell count	0.008 (-0.009,0.025)	6.52e-01	0.786378844116362
+INI23042	INI30210_PRS	GroEL antigen for Helicobacter pylori	Eosinophill %	0.005 (-0.007,0.017)	6.60e-01	0.790935990930935
+INI23042	INI30190_PRS	GroEL antigen for Helicobacter pylori	Monocyte %	0.005 (-0.007,0.017)	6.61e-01	0.790935990930935
+INI23020	INI30150_PRS	P22 antigen for Toxoplasma gondii	Eosinophill count	0.005 (-0.007,0.017)	6.66e-01	0.793565644010903
+INI23001	INI30120_PRS	2mgG unique antigen for Herpes Simplex virus-2	Lymphocyte count	0.005 (-0.007,0.017)	6.67e-01	0.793565644010903
+INI23004	INI30000_PRS	EBNA-1 antigen for Epstein-Barr Virus	White blood cell count	0.005 (-0.007,0.017)	6.74e-01	0.796850806701708
+INI23006	INI30180_PRS	EA-D antigen for Epstein-Barr Virus	Lymphocyte %	-0.005 (-0.017,0.007)	6.75e-01	0.796850806701708
+INI23004	INI30120_PRS	EBNA-1 antigen for Epstein-Barr Virus	Lymphocyte count	-0.005 (-0.017,0.007)	6.80e-01	0.800733303862732
+INI23042	INI30180_PRS	GroEL antigen for Helicobacter pylori	Lymphocyte %	0.005 (-0.007,0.016)	6.88e-01	0.806740239880322
+INI23037	INI30210_PRS	PorB antigen for Chlamydia trachomatis	Eosinophill %	-0.005 (-0.017,0.007)	6.96e-01	0.814298921037776
+INI23036	INI30180_PRS	Tarp-D F2 antigen for Chlamydia trachomatis	Lymphocyte %	-0.005 (-0.017,0.007)	7.01e-01	0.81456021396985
+INI23034	INI30200_PRS	Momp A antigen for Chlamydia trachomatis	Neutrophill %	0.005 (-0.007,0.017)	7.01e-01	0.81456021396985
+INI23016	INI30000_PRS	HBc antigen for Hepatitis B Virus	White blood cell count	0.004 (-0.007,0.015)	7.08e-01	0.81960949989193
+INI23038	INI30150_PRS	PGP3 antigen for Chlamydia trachomatis	Eosinophill count	0.004 (-0.007,0.015)	7.12e-01	0.81960949989193
+INI23020	INI30180_PRS	P22 antigen for Toxoplasma gondii	Lymphocyte %	0.004 (-0.008,0.016)	7.13e-01	0.81960949989193
+INI23024	INI30000_PRS	HIV-1 gag antigen for Human Immunodeficiency Virus	White blood cell count	-0.004 (-0.017,0.008)	7.19e-01	0.81960949989193
+INI23002	INI30180_PRS	GE / gI antigen for Varicella Zoster Virus	Lymphocyte %	-0.004 (-0.016,0.008)	7.21e-01	0.81960949989193
+INI23004	INI30180_PRS	EBNA-1 antigen for Epstein-Barr Virus	Lymphocyte %	0.004 (-0.008,0.016)	7.22e-01	0.81960949989193
+INI23027	INI30000_PRS	JC VP1 antigen for Human Polyomavirus JCV	White blood cell count	0.004 (-0.008,0.017)	7.24e-01	0.81960949989193
+INI23006	INI30000_PRS	EA-D antigen for Epstein-Barr Virus	White blood cell count	0.004 (-0.008,0.016)	7.24e-01	0.81960949989193
+INI23020	INI30210_PRS	P22 antigen for Toxoplasma gondii	Eosinophill %	-0.004 (-0.016,0.008)	7.30e-01	0.823870619633365
+INI23037	INI30150_PRS	PorB antigen for Chlamydia trachomatis	Eosinophill count	0.004 (-0.008,0.016)	7.49e-01	0.840733518845059
+INI23010	INI30190_PRS	IE1A antigen for Human Herpesvirus-6	Monocyte %	0.004 (-0.008,0.016)	7.50e-01	0.840733518845059
+INI23011	INI30120_PRS	IE1B antigen for Human Herpesvirus-6	Lymphocyte count	0.004 (-0.008,0.016)	7.54e-01	0.843029877222195
+INI23017	INI30000_PRS	HBe antigen for Hepatitis B Virus	White blood cell count	0.004 (-0.008,0.016)	7.57e-01	0.84353038718089
+INI23024	INI30120_PRS	HIV-1 gag antigen for Human Immunodeficiency Virus	Lymphocyte count	-0.004 (-0.016,0.009)	7.65e-01	0.849680987294446
+INI23031	INI30140_PRS	E7 antigen for Human Papillomavirus type-16	Neutrophill count	-0.003 (-0.015,0.008)	7.75e-01	0.8576245123062
+INI23028	INI30190_PRS	MC VP1 antigen for Merkel Cell Polyomavirus	Monocyte %	-0.003 (-0.016,0.009)	7.89e-01	0.869263051608661
+INI23000	INI30180_PRS	1gG antigen for Herpes Simplex virus-1	Lymphocyte %	0.003 (-0.009,0.015)	7.91e-01	0.869263051608661
+INI23033	INI30200_PRS	Momp D antigen for Chlamydia trachomatis	Neutrophill %	-0.003 (-0.015,0.009)	7.93e-01	0.869263051608661
+INI23030	INI30140_PRS	E6 antigen for Human Papillomavirus type-16	Neutrophill count	0.003 (-0.009,0.014)	8.02e-01	0.876881476399036
+INI23027	INI30190_PRS	JC VP1 antigen for Human Polyomavirus JCV	Monocyte %	0.003 (-0.009,0.015)	8.14e-01	0.887192100742828
+INI23023	INI30140_PRS	HTLV-1 env antigen for Human T-Lymphotropic Virus 1	Neutrophill count	-0.003 (-0.015,0.009)	8.20e-01	0.887264746464066
+INI23006	INI30140_PRS	EA-D antigen for Epstein-Barr Virus	Neutrophill count	0.003 (-0.009,0.015)	8.21e-01	0.887264746464066
+INI23034	INI30210_PRS	Momp A antigen for Chlamydia trachomatis	Eosinophill %	0.003 (-0.009,0.015)	8.22e-01	0.887264746464066
+INI23018	INI30140_PRS	Core antigen for Hepatitis C Virus	Neutrophill count	-0.002 (-0.013,0.009)	8.31e-01	0.894284023439577
+INI23021	INI30210_PRS	Sag1 antigen for Toxoplasma gondii	Eosinophill %	0.003 (-0.010,0.015)	8.34e-01	0.895434883027303
+INI23038	INI30210_PRS	PGP3 antigen for Chlamydia trachomatis	Eosinophill %	-0.002 (-0.013,0.009)	8.48e-01	0.907470493429805
+INI23004	INI30140_PRS	EBNA-1 antigen for Epstein-Barr Virus	Neutrophill count	0.002 (-0.010,0.014)	8.58e-01	0.915257714782755
+INI23002	INI30150_PRS	GE / gI antigen for Varicella Zoster Virus	Eosinophill count	-0.002 (-0.014,0.010)	8.64e-01	0.916557505541797
+INI23033	INI30210_PRS	Momp D antigen for Chlamydia trachomatis	Eosinophill %	-0.002 (-0.014,0.010)	8.67e-01	0.916557505541797
+INI23002	INI30190_PRS	GE / gI antigen for Varicella Zoster Virus	Monocyte %	-0.002 (-0.014,0.010)	8.67e-01	0.916557505541797
+INI23034	INI30190_PRS	Momp A antigen for Chlamydia trachomatis	Monocyte %	0.002 (-0.010,0.014)	8.70e-01	0.916557505541797
+INI23020	INI30200_PRS	P22 antigen for Toxoplasma gondii	Neutrophill %	0.002 (-0.010,0.014)	8.78e-01	0.92279788044306
+INI23036	INI30200_PRS	Tarp-D F2 antigen for Chlamydia trachomatis	Neutrophill %	-0.002 (-0.014,0.010)	8.83e-01	0.924036530992042
+INI23003	INI30190_PRS	VCA p18 antigen for Epstein-Barr Virus	Monocyte %	-0.002 (-0.014,0.010)	8.85e-01	0.924036530992042
+INI23022	INI30120_PRS	HTLV-1 gag antigen for Human T-Lymphotropic Virus 1	Lymphocyte count	-0.002 (-0.014,0.010)	8.90e-01	0.924821812990131
+INI23034	INI30120_PRS	Momp A antigen for Chlamydia trachomatis	Lymphocyte count	0.002 (-0.010,0.014)	8.91e-01	0.924821812990131
+INI23002	INI30210_PRS	GE / gI antigen for Varicella Zoster Virus	Eosinophill %	-0.001 (-0.014,0.011)	9.02e-01	0.934309276377974
+INI23001	INI30180_PRS	2mgG unique antigen for Herpes Simplex virus-2	Lymphocyte %	-0.001 (-0.013,0.011)	9.16e-01	0.944019721539323
+INI23040	INI30140_PRS	VacA antigen for Helicobacter pylori	Neutrophill count	0.001 (-0.011,0.013)	9.17e-01	0.944019721539323
+INI23011	INI30210_PRS	IE1B antigen for Human Herpesvirus-6	Eosinophill %	-0.001 (-0.014,0.011)	9.20e-01	0.944378971076447
+INI23017	INI30120_PRS	HBe antigen for Hepatitis B Virus	Lymphocyte count	0.001 (-0.011,0.013)	9.26e-01	0.947081949955449
+INI23041	INI30210_PRS	OMP antigen for Helicobacter pylori	Eosinophill %	0.001 (-0.011,0.013)	9.29e-01	0.94734732356944
+INI23035	INI30150_PRS	Tarp-D F1 antigen for Chlamydia trachomatis	Eosinophill count	0.001 (-0.011,0.012)	9.34e-01	0.950624471386387
+INI23009	INI30210_PRS	Pp 28 antigen for Human Cytomegalovirus	Eosinophill %	-0.001 (-0.013,0.011)	9.40e-01	0.953241365022219
+INI23007	INI30210_PRS	Pp150 Nter antigen for Human Cytomegalovirus	Eosinophill %	-0.001 (-0.013,0.011)	9.50e-01	0.961139717287768
+INI23041	INI30180_PRS	OMP antigen for Helicobacter pylori	Lymphocyte %	0.001 (-0.011,0.013)	9.55e-01	0.961884658877677
+INI23010	INI30140_PRS	IE1A antigen for Human Herpesvirus-6	Neutrophill count	0.001 (-0.012,0.013)	9.56e-01	0.961884658877677
+INI23041	INI30120_PRS	OMP antigen for Helicobacter pylori	Lymphocyte count	-0.001 (-0.013,0.011)	9.63e-01	0.965873953172771
+INI23002	INI30000_PRS	GE / gI antigen for Varicella Zoster Virus	White blood cell count	-0.000 (-0.012,0.012)	9.79e-01	0.978748824746117

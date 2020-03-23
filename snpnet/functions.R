@@ -20,8 +20,8 @@ compute_covar_score <- function(phe_df, covar_df){
     rename('SCORE_covars' = 'BETA')
 }
 
-read_phe_and_scores <- function(phe_f, score_f, covar_score_f, trait, split.col='split'){
-    phe_df <- fread(
+read_phe <- function(phe_f, trait, split.col='split'){
+    fread(
         phe_f,
         select=c('FID', 'IID', split.col, trait),
         colClasses=c('FID'='character', 'IID'='character')
@@ -29,14 +29,31 @@ read_phe_and_scores <- function(phe_f, score_f, covar_score_f, trait, split.col=
     assign_ID_from_FID_IID() %>%
     rename('pheno' = trait) %>%
     mutate(pheno = na_if(pheno, -9))
-    
-    score_df <- fread(
+}
+
+read_PRS_score <- function(score_f){
+    fread(
         cmd=paste('zstdcat', score_f),
         select=c('#FID', 'IID', 'SCORE1_SUM'),
         colClasses=c('#FID'='character', 'IID'='character')
     ) %>%
     rename('FID' = '#FID', 'SCORE_geno' = 'SCORE1_SUM') %>%
-    assign_ID_from_FID_IID() 
+    assign_ID_from_FID_IID() %>%
+    select(ID, SCORE_geno)
+}
+
+read_phe_and_scores <- function(phe_f, score_f, covar_score_f, trait, split.col='split'){
+    phe_df <- read_phe(phe_f, trait, split.col)
+#     fread(
+#         phe_f,
+#         select=c('FID', 'IID', split.col, trait),
+#         colClasses=c('FID'='character', 'IID'='character')
+#     ) %>%
+#     assign_ID_from_FID_IID() %>%
+#     rename('pheno' = trait) %>%
+#     mutate(pheno = na_if(pheno, -9))
+
+    score_df <- read_PRS_score()
     
     covar_score_df <- fread(
         covar_score_f,
@@ -75,4 +92,74 @@ round_cols_in_df <- function(df, cols, digits=3){
         df[[ col ]] <- sprintf(paste0("%.", digits, "f"), df[[ col ]])
     }
     df
+}
+
+### functions for plotting
+
+plot_PRS_vs_phe <- function(plot_df, plot_bin2d_x=0.05, plot_bin2d_y=NULL){
+    if(is.null(plot_bin2d_y)){
+        plot_bin2d_y <- diff(quantile(plot_df$pheno, c(.4, .6))) / 4
+    }
+    plot_df %>%
+    filter(
+        # 99.9% coverage
+        quantile(plot_df$pheno, .0005) < pheno,
+        quantile(plot_df$pheno, .9995) > pheno
+    ) %>%
+    ggplot(aes(x = SCORE_geno_z, y = pheno)) +
+    geom_bin2d(binwidth = c(plot_bin2d_x, plot_bin2d_y)) +
+    scale_fill_continuous(type = "viridis") +
+    theme_bw()
+}
+
+compute_mean <- function(df, percentile_col, phe_col, l_bin, u_bin){
+    stratified_df <- df %>%
+    rename(Percentile = percentile_col, phe = phe_col) %>%
+    filter(l_bin < Percentile, Percentile <= u_bin)
+
+    n     <- stratified_df %>% nrow()
+    mean  <- stratified_df %>% select(phe) %>% pull() %>% mean()
+    sd    <- stratified_df %>% select(phe) %>% pull() %>% sd()
+    std_e <- sd / sqrt(n)
+    l_err <- mean - std_e
+    u_err <- mean + std_e
+
+    data.frame(
+        l_bin = l_bin,
+        u_bin = u_bin,
+        mean   = mean,
+        std_err = std_e,
+        l_err = l_err,
+        u_err = u_err,
+        mean_str = sprintf('%.3f (%.3f-%.3f)', mean, l_err, u_err),
+        bin_str = paste0(100 * l_bin, '% - ', 100 * u_bin, '%'),
+        stringsAsFactors=F
+    ) %>%
+    mutate(mean_str = as.character(mean_str))
+}
+
+compute_summary_df <- function(df, percentile_col, phe_col){
+    percentile_col # redundant?
+    bind_rows(
+        compute_mean(df, percentile_col, phe_col,   0, .0005),
+        compute_mean(df, percentile_col, phe_col, .0005, .01),
+        compute_mean(df, percentile_col, phe_col, .01, .05),
+        lapply(2:19, function(x){
+            compute_mean(df, percentile_col, phe_col, (x-1)/20, x/20)
+        }),
+        compute_mean(df, percentile_col, phe_col, .95, .99),
+        compute_mean(df, percentile_col, phe_col, .99, .9995),
+        compute_mean(df, percentile_col, phe_col, .9995, 1)
+    )
+}
+
+plot_PRS_bin_vs_phe <- function(summary_plot_df, horizontal_line){
+    summary_plot_df %>%
+    mutate(x_ticks_labels = paste0('[', bin_str, ']')) %>%
+    ggplot(aes(x=reorder(x_ticks_labels, -u_bin), y=mean)) +
+    geom_point() +
+    geom_errorbar(aes(ymin = l_err, ymax = u_err)) +
+    geom_hline(yintercept = horizontal_line, color='gray')+
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=.5))
 }

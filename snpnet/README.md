@@ -80,6 +80,8 @@ Our trait IDs are written as `GBE_ID` in [`pheno.info.tsv`](pheno_info.tsv). The
 - `7_aggregate_eval_metrics.{R, sh}`: a pair of scripts to update the metric tables.
 - `8_copy_PRS_weights.sh`: a script to copy the PRS weights and upload to the Google Drive shared folder.
 
+We will soon add documentation on the remaining scripts.
+
 ## Job submission commands
 
 The job submission commands are summarized in this document: [`snpnet_job_submission.md`](snpnet_job_submission.md).

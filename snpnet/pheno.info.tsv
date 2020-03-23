@@ -1,67 +1,67 @@
-#GBE_ID	pheno	pheno_plot
-INI30000	White_blood_cell_(leukocyte)_count	White blood cell count
-INI30010	Red_blood_cell_(erythrocyte)_count	Red blood cell count
-INI30020	Haemoglobin_concentration	Haemoglobin concentration
-INI30030	Haematocrit_percentage	Haematocrit %
-INI30040	Mean_corpuscular_volume	Mean corpuscular volume
-INI30050	Mean_corpuscular_haemoglobin	Mean corpuscular haemoglobin
-INI30060	Mean_corpuscular_haemoglobin_concentration	Mean corpuscular haemoglobin concentration
-INI30070	Red_blood_cell_(erythrocyte)_distribution_width	Red blood cell distribution width
-INI30080	Platelet_count	Platelet count
-INI30090	Platelet_crit	Platelet crit
-INI30100	Mean_platelet_(thrombocyte)_volume	Mean platelet volume
-INI30110	Platelet_distribution_width	Platelet distribution width
-INI30120	Lymphocyte_count	Lymphocyte count
-INI30130	Monocyte_count	Monocyte count
-INI30140	Neutrophill_count	Neutrophill count
-INI30150	Eosinophill_count	Eosinophill count
-INI30160	Basophill_count	Basophill count
-INI30170	Nucleated_red_blood_cell_count	Nuc. red blood cell count
-INI30180	Lymphocyte_percentage	Lymphocyte %
-INI30190	Monocyte_percentage	Monocyte %
-INI30200	Neutrophill_percentage	Neutrophill %
-INI30210	Eosinophill_percentage	Eosinophill %
-INI30220	Basophill_percentage	Basophill %
-INI30230	Nucleated_red_blood_cell_percentage	Nuc. red blood cell %
-INI30240	Reticulocyte_percentage	Reticulocyte %
-INI30250	Reticulocyte_count	Reticulocyte count
-INI30260	Mean_reticulocyte_volume	Mean reticulocyte volume
-INI30270	Mean_sphered_cell_volume	Mean sphered cell volume
-INI30280	Immature_reticulocyte_fraction	Immature reticulocyte fraction
-INI30290	High_light_scatter_reticulocyte_percentage	High light scatter reticulocyte %
-INI30300	High_light_scatter_reticulocyte_count	High light scatter reticulocyte count
-Alanine_aminotransferase	Alanine_aminotransferase	Alanine aminotransferase
-Albumin	Albumin	Albumin
-Alkaline_phosphatase	Alkaline_phosphatase	Alkaline phosphatase
-Apolipoprotein_A	Apolipoprotein_A	Apolipoprotein A
-Apolipoprotein_B_adjstatins	Apolipoprotein_B_adjstatins	Apolipoprotein B
-Aspartate_aminotransferase	Aspartate_aminotransferase	Aspartate aminotransferase
-Calcium	Calcium	Calcium
-Cholesterol_adjstatins	Cholesterol_adjstatins	Cholesterol
-C_reactive_protein	C_reactive_protein	C-reactive protein
-Creatinine	Creatinine	Creatinine
-Cystatin_C	Cystatin_C	Cystatin C
-Direct_bilirubin	Direct_bilirubin	Direct bilirubin
-Gamma_glutamyltransferase	Gamma_glutamyltransferase	Gamma glutamyltransferase
-Glucose	Glucose	Glucose
-Glycated_haemoglobin_HbA1c	Glycated_haemoglobin_HbA1c	HbA1c
-HDL_cholesterol	HDL_cholesterol	HDL cholesterol
-IGF_1	IGF_1	IGF-1
-LDL_direct_adjstatins	LDL_direct_adjstatins	LDL cholesterol
-Lipoprotein_A	Lipoprotein_A	Lipoprotein A
-Phosphate	Phosphate	Phosphate
-SHBG	SHBG	SHBG
-Testosterone	Testosterone	Testosterone
-Total_bilirubin	Total_bilirubin	Total bilirubin
-Total_protein	Total_protein	Total protein
-Triglycerides	Triglycerides	Triglycerides
-Urate	Urate	Urate
-Urea	Urea	Urea
-Vitamin_D	Vitamin_D	Vitamin D
-Creatinine_in_urine	Creatinine_in_urine	Creatinine in urine
-eGFR	eGFR	eGFR
-Microalbumin_in_urine	Microalbumin_in_urine	Microalbumin in urine
-Potassium_in_urine	Potassium_in_urine	Potassium in urine
-Sodium_in_urine	Sodium_in_urine	Sodium in urine
-Non_albumin_protein	Non_albumin_protein	Non-albumin protein
-AST_ALT_ratio	AST_ALT_ratio	AST to ALT ratio
+#GBE_ID	pheno	pheno_plot	Units_of_measurement
+INI30000	White_blood_cell_(leukocyte)_count	White blood cell count	$10^9$ cells/Litre
+INI30010	Red_blood_cell_(erythrocyte)_count	Red blood cell count	$10^{12}$ cells/Litre
+INI30020	Haemoglobin_concentration	Haemoglobin concentration	grams/decilitre
+INI30030	Haematocrit_percentage	Haematocrit %	percent
+INI30040	Mean_corpuscular_volume	Mean corpuscular volume	femtolitres
+INI30050	Mean_corpuscular_haemoglobin	Mean corpuscular haemoglobin	picograms
+INI30060	Mean_corpuscular_haemoglobin_concentration	Mean corpuscular haemoglobin concentration	grams/decilitre
+INI30070	Red_blood_cell_(erythrocyte)_distribution_width	Red blood cell distribution width	percent
+INI30080	Platelet_count	Platelet count	$10^9$ cells/Litre
+INI30090	Platelet_crit	Platelet crit	percent
+INI30100	Mean_platelet_(thrombocyte)_volume	Mean platelet volume	femtolitres
+INI30110	Platelet_distribution_width	Platelet distribution width	percent
+INI30120	Lymphocyte_count	Lymphocyte count	$10^9$ cells/Litre
+INI30130	Monocyte_count	Monocyte count	$10^9$ cells/Litre
+INI30140	Neutrophill_count	Neutrophill count	$10^9$ cells/Litre
+INI30150	Eosinophill_count	Eosinophill count	$10^9$ cells/Litre
+INI30160	Basophill_count	Basophill count	$10^9$ cells/Litre
+INI30170	Nucleated_red_blood_cell_count	Nuc. red blood cell count	$10^9$ cells/Litre
+INI30180	Lymphocyte_percentage	Lymphocyte %	percent
+INI30190	Monocyte_percentage	Monocyte %	percent
+INI30200	Neutrophill_percentage	Neutrophill %	percent
+INI30210	Eosinophill_percentage	Eosinophill %	percent
+INI30220	Basophill_percentage	Basophill %	percent
+INI30230	Nucleated_red_blood_cell_percentage	Nuc. red blood cell %	percent
+INI30240	Reticulocyte_percentage	Reticulocyte %	percent
+INI30250	Reticulocyte_count	Reticulocyte count	$10^{12}$ cells/Litre
+INI30260	Mean_reticulocyte_volume	Mean reticulocyte volume	femtolitres
+INI30270	Mean_sphered_cell_volume	Mean sphered cell volume	femtolitres
+INI30280	Immature_reticulocyte_fraction	Immature reticulocyte fraction	ratio
+INI30290	High_light_scatter_reticulocyte_percentage	High light scatter reticulocyte %	percent
+INI30300	High_light_scatter_reticulocyte_count	High light scatter reticulocyte count	$10^{12}$ cells/Litre
+Alanine_aminotransferase	Alanine_aminotransferase	Alanine aminotransferase	
+Albumin	Albumin	Albumin	
+Alkaline_phosphatase	Alkaline_phosphatase	Alkaline phosphatase	
+Apolipoprotein_A	Apolipoprotein_A	Apolipoprotein A	
+Apolipoprotein_B_adjstatins	Apolipoprotein_B_adjstatins	Apolipoprotein B	
+Aspartate_aminotransferase	Aspartate_aminotransferase	Aspartate aminotransferase	
+Calcium	Calcium	Calcium	
+Cholesterol_adjstatins	Cholesterol_adjstatins	Cholesterol	
+C_reactive_protein	C_reactive_protein	C-reactive protein	
+Creatinine	Creatinine	Creatinine	
+Cystatin_C	Cystatin_C	Cystatin C	
+Direct_bilirubin	Direct_bilirubin	Direct bilirubin	
+Gamma_glutamyltransferase	Gamma_glutamyltransferase	Gamma glutamyltransferase	
+Glucose	Glucose	Glucose	
+Glycated_haemoglobin_HbA1c	Glycated_haemoglobin_HbA1c	HbA1c	
+HDL_cholesterol	HDL_cholesterol	HDL cholesterol	
+IGF_1	IGF_1	IGF-1	
+LDL_direct_adjstatins	LDL_direct_adjstatins	LDL cholesterol	
+Lipoprotein_A	Lipoprotein_A	Lipoprotein A	
+Phosphate	Phosphate	Phosphate	
+SHBG	SHBG	SHBG	
+Testosterone	Testosterone	Testosterone	
+Total_bilirubin	Total_bilirubin	Total bilirubin	
+Total_protein	Total_protein	Total protein	
+Triglycerides	Triglycerides	Triglycerides	
+Urate	Urate	Urate	
+Urea	Urea	Urea	
+Vitamin_D	Vitamin_D	Vitamin D	
+Creatinine_in_urine	Creatinine_in_urine	Creatinine in urine	
+eGFR	eGFR	eGFR	
+Microalbumin_in_urine	Microalbumin_in_urine	Microalbumin in urine	
+Potassium_in_urine	Potassium_in_urine	Potassium in urine	
+Sodium_in_urine	Sodium_in_urine	Sodium in urine	
+Non_albumin_protein	Non_albumin_protein	Non-albumin protein	
+AST_ALT_ratio	AST_ALT_ratio	AST to ALT ratio	
