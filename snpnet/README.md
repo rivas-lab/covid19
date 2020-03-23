@@ -43,6 +43,12 @@ We also provide the performance metrics computed on the training and the validat
 - 4. dataset: indicates whether the trait belongs to the blood measurements or the 35 biomarkers.
 - 5-13. The R<sup>2</sup> metric computed for the training, validation, and test sets. We report the metric using the three sets of features (genetic information + covariates, genetic information alone, and covariates alone) as described above. The column names are in the form of `<data set split>_<feature set>`.
 
+Additionally, we also generated performance plots for PRSs of the blood measurements (available in [`figs`](figs) directory).
+
+![PRS.eval.Lymphocyte_percentage.png](figs/PRS.eval.Lymphocyte_percentage.png)
+
+ **Figure**. Polygenic risk scores and their relationship to predicted lymphocyte percentage. (left) Relationship between PRS for lymphocyte percentage (%) and lymphocyte percentage (%) in a held out test set. (right) Lymphocyte percentage (%) and its corresponding standard error at each PRS quantile of lymphocyte percentage PRS.
+
 ## Weights of polygenic risk scores
 
 We are still running the `snpnet` computation, but provide the PRS weights extracted from the intermediate results. ~~We will soon make the weights (`BETA` in the multivariate predictive model) of the polygenic risk score publicly available.~~
@@ -70,17 +76,18 @@ Our trait IDs are written as `GBE_ID` in [`pheno.info.tsv`](pheno_info.tsv). The
 
 ## List of scripts/notebooks
 
-- `1_phe_prep.ipynb`: phenotype file prep. We merge the GWAS covariates file, master phe file (for blood measurements phenotypes), and biomarker phenotype file (which is not a part of master phe file).
-- `2a_snpnet.biomarkers.sbatch.v3.sh`: snpnet sbatch script for the biomarker phenotypes.
-- `2b_snpnet.blood.sbatch.v3.sh`: snpnet sbatch script for the blood measurement phenotypes.
-- `3_export_intermediate.sh`: a script to export the intermediate results
-- `4_covar_score.R`: a script to compute the risk scores from the covariates
-- `5_eval.R`: a script to compute R<sup>2</sup> metric.
-- `6_update_evals.sh`: a wrapper script to update the evaluation metrics.
-- `7_aggregate_eval_metrics.{R, sh}`: a pair of scripts to update the metric tables.
-- `8_copy_PRS_weights.sh`: a script to copy the PRS weights and upload to the Google Drive shared folder.
-
-We will soon add documentation on the remaining scripts.
+- [`1_phe_prep.ipynb`](1_phe_prep.ipynb): phenotype file prep. We merge the GWAS covariates file, master phe file (for blood measurements phenotypes), and biomarker phenotype file (which is not a part of master phe file).
+- [`2a_snpnet.biomarkers.sbatch.v3.sh`](2a_snpnet.biomarkers.sbatch.v3.sh): snpnet sbatch script for the biomarker phenotypes.
+- [`2b_snpnet.blood.sbatch.v3.sh`](2b_snpnet.blood.sbatch.v3.sh): snpnet sbatch script for the blood measurement phenotypes.
+- [`3_export_intermediate.sh`](3_export_intermediate.sh): a script to export the intermediate results
+- [`4_covar_score.R`](4_covar_score.R): a script to compute the risk scores from the covariates
+- [`5_eval.R`](5_eval.R): a script to compute R<sup>2</sup> metric.
+- [`6_update_evals.sh`](6_update_evals.sh): a wrapper script to update the evaluation metrics.
+- [`7_aggregate_eval_metrics.sh`](7_aggregate_eval_metrics.sh) and [`7_aggregate_eval_metrics.R`](7_aggregate_eval_metrics.R) : a pair of scripts to update the metric tables.
+- [`8_copy_PRS_weights.sh`](8_copy_PRS_weights.sh): a script to copy the PRS weights and upload to the Google Drive shared folder.
+- [`9_PRS_plots.R`](9_PRS_plots.R) and [`9_PRS_plots.sh`](9_PRS_plots.sh): this script is used to generate the PRS evaluation plot.
+- [`10_PRS_score_summary.R`](10_PRS_score_summary.R): this script summarizes the mean and the standard error of the phenotypes stratified by PRS.
+- [`11_copy_PRS_eval_plots.sh`](11_copy_PRS_eval_plots.sh): this script copies the plots generated from [`9_PRS_plots.R`](9_PRS_plots.R) to [`figs`](figs) directory.
 
 ## Job submission commands
 

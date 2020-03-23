@@ -28,7 +28,8 @@ We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [p
 
 ## Update log
 
-- 2020/3/22: We add results and source code for the PRS-PheWAS analysis [PRS_PheWAS](/PRS_PheWAS).
+- 2020/3/23: We added the PRS evaluation plots and updated the documentation.
+- 2020/3/22: We added results and source code for the PRS-PheWAS analysis [PRS_PheWAS](/PRS_PheWAS).
 - 2020/3/22: We updated the documentation of the [ABO blood type analysis](/ABO).
 - 2020/3/22: We made our initial draft of our host genetic analysis, [Initial review and analysis of COVID-19 host genetics and associated phenotypes](https://tinyurl.com/genes-covid19) (it is now hosted on Google Docs -- we submitted the manuscript to a pre-print server).
 - 2020/3/21: We added the [ABO blood type frequency reference](/ABO) across 9 population groups in UK Biobank (White British, Non-British white, African, South Asian, East Asian, self-reported Chinese, self-reported Indian, self-reported Pakistani, and self-reported Bangladeshi).
