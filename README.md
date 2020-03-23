@@ -2,6 +2,8 @@
 
 As a part of [COVID-19 Host Genetics Initiative](https://covid-19genehostinitiative.net/), we perform the following set of analyses to better understand the genetic basis of COVID-19 susceptibility and severity.
 
+Please check out initial draft of host genetics of COVID-19, [Initial review and analysis of COVID-19 host genetics and associated phenotypes](https://tinyurl.com/genes-covid19) (it is now hosted on Google Docs -- we submitted the manuscript to a pre-print server).
+
 - [`UKB_HLA_freq`](/UKB_HLA_freq): HLA frequency in UK Biobank[1].
 - [`snpnet`](/snpnet): Polygenic prediction of biomarkers and blood measurements. We deposit notebooks and scripts for polygenic risk score (PRS) analysis in this directory[2,3,4].
 
