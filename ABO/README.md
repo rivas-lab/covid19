@@ -2,7 +2,7 @@
 
 Recently, Zhao et al.[1] reported the difference of ABO blood type frequencies between the COVID-19 patients and the control population. To replicate their findings using an independent controls consists of unrelated individuals, and to provide a reference panel for ABO blood type frequencies across diverse populations, we aggregated the ABO blood type information. Given that the haplotype at _ABO_ locus that define the four major ABO antigen is tagged by 3 SNPs[2,3], we extracted the genotype information at those variants, computed the frequencies of the haplotypes and the blood types across 9 population groups (White British, Non-British white, African, South Asian, East Asian, self-reported Chinese, self-reported Indian, self-reported Pakistani, and self-reported Bangladeshi).
 
-Please check out initial draft of host genetics of COVID-19, [Initial review and analysis of COVID-19 host genetics and associated phenotypes](https://tinyurl.com/genes-covid19)(it is now hosted on Google Docs -- we submitted the manuscript to a pre-print server)  for more about our analysis.
+Please check out initial draft of host genetics of COVID-19, [Initial review and analysis of COVID-19 host genetics and associated phenotypes](https://www.preprints.org/manuscript/202003.0356/v1) for more about the analysis.
 
 | ABO allele | rs8176746 | rs687289 | rs507666 |
 |------------|-----------|----------|----------|

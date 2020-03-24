@@ -2,7 +2,7 @@
 
 We evaluate the utility of polygenic risk scores (PRSs) of blood measurement traits for the disease risk prediction. Specifically, we focused on 44 disease antigen measurements (listed in [`UKB_Category_1307.tsv`](UKB_Category_1307.tsv))[1], infectious diseases and acute respiratory infections (ICD-10 codes corresponding to J00-J06, J09-J18, J80, and J20-J22), and deaths in UK Biobank.
 
-Please check out initial draft of host genetics of COVID-19, [Initial review and analysis of COVID-19 host genetics and associated phenotypes](https://tinyurl.com/genes-covid19)(it is now hosted on Google Docs -- we submitted the manuscript to a pre-print server)  for more about our analysis.
+Please check out initial draft of host genetics of COVID-19, [Initial review and analysis of COVID-19 host genetics and associated phenotypes](https://www.preprints.org/manuscript/202003.0356/v1) for more about the analysis.
 
 ## List of files in this directory
 
