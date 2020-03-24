@@ -9,6 +9,10 @@ Please check out initial draft of host genetics of COVID-19, [Initial review and
 - [`snpnet`](/snpnet): Polygenic prediction of biomarkers and blood measurements. We deposit notebooks and scripts for polygenic risk score (PRS) analysis in this directory[2,3,4].
 - [`PRS_PheWAS`](PRS_PheWAS): Application of blood measurement PRSs for disease risk prediction.
 
+## Please share ABO blood type frequency in COVID-19 patients
+
+We replicated recent findings in Zhao et al.[5] about the significant risk reduction of the blood group O across different control groups in UK Biobank. For a robust inference of risk factors, we would like to encourage a broad sharing of ABO blood type frequencies across (1) mild, (2) moderate, and (3) severe/critical COVID-19 cases at [https://tinyurl.com/abo-covid19](https://tinyurl.com/abo-covid19).
+
 ## Publicly available resources
 
 - [PRS-PheWAS results](/PRS_PheWAS)
@@ -44,4 +48,5 @@ We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [p
 2. [Qian, J. et al. A Fast and Flexible Algorithm for Solving the Lasso in Large-scale and Ultrahigh-dimensional Problems. bioRxiv 630079 (2019)](https://doi.org/doi:10.1101/630079).
 3. [Sinnott-Armstrong, N. et al. Genetics of 38 blood and urine biomarkers in the UK Biobank. bioRxiv 660506 (2019)](https://doi.org/10.1101/660506).
 4. [UK Biobank : Category 100081. Blood count - Blood assays - Assay results - Biological samples](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100081).
-5. [Sherlock joins the fight against COVID-19. Stanford Research Computing Center](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19).
+5. [Zhao, J. et al. Relationship between the ABO Blood Group and the COVID-19 Susceptibility. medRxiv 2020.03.11.20031096 (2020)](https://doi.org/10.1101/2020.03.11.20031096).
+6. [Sherlock joins the fight against COVID-19. Stanford Research Computing Center](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19).
