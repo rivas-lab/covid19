@@ -32,8 +32,8 @@ We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [p
 
 ## Update log
 
-- 2020/3/24: [Our initiral draft of write-up is now posted on preprints.org](https://doi.org/10.20944/preprints202003.0356.v1).
-- 2020/3/23: We added the PRS evaluation plots and updated the documentation.
+- 2020/3/24: [Our initial draft write-up is now posted on preprints.org](https://doi.org/10.20944/preprints202003.0356.v1).
+- 2020/3/23: We added PRS evaluation plots and updated the documentation.
 - 2020/3/22: We added results and source code for the PRS-PheWAS analysis [PRS_PheWAS](/PRS_PheWAS).
 - 2020/3/22: We updated the documentation of the [ABO blood type analysis](/ABO).
 - 2020/3/22: We made our initial draft of our host genetic analysis, [Initial review and analysis of COVID-19 host genetics and associated phenotypes](https://doi.org/10.20944/preprints202003.0356.v1) available at ~~Google Docs~~ (it is now available at Preprints.org).
