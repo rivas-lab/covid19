@@ -49,7 +49,7 @@ They have the [worldwide population frequencies in unrelated individuals and in 
 
 ## Acknowledgement
 
-We thank Marcelo Fernandez-Vina and Euan Ashley for providing the information about the 17th IHIW NGS HLA Data.
+We thank Marcelo Fernandez-Vina and Euan Ashley for providing the information about the 17th IHIW NGS HLA Data. We thank Kazutoyo Osoegawa for reformatting and aggregating the 17th IHIW NGS HLA Data.
 
 ## Reference
 
