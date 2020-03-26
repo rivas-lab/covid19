@@ -1,4 +1,6 @@
-# HLA allelotype frequencies in the UK Biobank
+#  Worldwide population frequencies of HLA allelotypes
+
+## HLA allelotype frequencies in the UK Biobank
 
 We provide the HLA allelotype frequencies in UK Biobank[1].
 The allelotype frequencies are computed using unrelated set of individuals in the following 5 populations.
@@ -41,11 +43,24 @@ From `R`, you may read the tables like this:
 df <- data.table::fread(cmd=paste('zstdcat', zst_file))
 ```
 
-## Other community resource
+## HLA allelotype frequencies in the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/)
 
-### [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/)
+Using the [worldwide population frequencies in unrelated individuals and in families](http://17ihiw.org/17th-ihiw-ngs-hla-data/)[7,8] dataset, we prepared two tables, [`17ihiw-Unrelated-FQ.tsv`](17ihiw-Unrelated-FQ.tsv) and [`17ihiw-Family-FQ.tsv`](17ihiw-Family-FQ.tsv), for frequencies in unrelated individuals and in families, respectively. We thank Kazutoyo Osoegawa for reformatting and aggregating the 17th IHIW NGS HLA Data.
 
-They have the [worldwide population frequencies in unrelated individuals and in families](http://17ihiw.org/17th-ihiw-ngs-hla-data/)[7,8].
+Those summary files have the following columns:
+
+- [`17ihiw-Unrelated-FQ.tsv`](17ihiw-Unrelated-FQ.tsv): `Locus`, `Allele`, `Ethnicity`, `Frequency`, and `Count`
+- [`17ihiw-Family-FQ.tsv`](17ihiw-Family-FQ.tsv): `Locus`, `Allele`, `Ethnicity/Country`, `Freq`, `AlleleCount` (observed allelotype count), `FamCount` (number of families included in the study), `and SampleCount` (number of subjects including children included in the study).
+
+### Notes on the HLA allelotype information
+
+Here are additional description on the data generation and aggregation process.
+
+- The frequency information in two files are equivalent, but are computed separately, for unrelated and family. In general, unrelated project had more samples, because selection criteria is simple, ethnicity for individual. For family study, we had to have parents and at least one child.
+- In a perfect world, one parent has 2 HLA haplotypes information available, and the allelotype count should be 4 per family. In their study, they had families with only one parent, two children. In this case they "imputed" the second parents using the children's HLA genotypes. If the children had "shared" one haplotype from the missing parent, they could impute only one allele. In this scenario, we had only three haplotypes per family. That's why the number of these are off from the perfect world scenario.
+- The allelotype frequencies in family study is calculated by treating "parents" as unrelated individuals.
+- For unrelated study, haplotypes were built using Expectation-Maximization (EM) algorithm, while family study, they were built using HLA allele inheritance.
+- For more information, please check the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/) website and their README files for [frequencies in unrelated individuals](http://17ihiw.org/wp-content/uploads/2018/10/Readme-Unrelated-HLA-allele-and-haplotypes-FQ-tables_072318.pdf) and [frequencies in families]((http://17ihiw.org/wp-content/uploads/2018/10/Readme-Family-HLA-allele-and-haplotypes-FQ-tables.pdf)).
 
 ## Acknowledgement
 
