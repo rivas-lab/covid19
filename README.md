@@ -4,7 +4,7 @@ As a part of [COVID-19 Host Genetics Initiative](https://covid-19genehostinitiat
 
 Please check out initial draft of host genetics of COVID-19, [Initial review and analysis of COVID-19 host genetics and associated phenotypes](https://doi.org/10.20944/preprints202003.0356.v1).
 
-- [`UKB_HLA_freq`](/UKB_HLA_freq): HLA frequency in UK Biobank[2].
+- [`HLA`](/HLA): HLA frequency in UK Biobank[2].
 - [`ABO`](/ABO): The ABO blood type frequency in UK Biobank.
 - [`snpnet`](/snpnet): Polygenic prediction of biomarkers and blood measurements. We deposit notebooks and scripts for polygenic risk score (PRS) analysis in this directory[3,4,5].
 - [`PRS_PheWAS`](PRS_PheWAS): Application of blood measurement PRSs for disease risk prediction.
@@ -17,7 +17,7 @@ We replicated recent findings in Zhao et al.[6] about the significant risk reduc
 
 - [PRS-PheWAS results](/PRS_PheWAS)
 - [ABO blood type frequencies in UK Biobank](/ABO)
-- [HLA allelotype frequencies in UK Biobank](/UKB_HLA_freq)
+- [HLA allelotype frequencies in UK Biobank](/HLA)
 - [The weights for polygenic risk prediction](/snpnet)
   - The weights of PRSs are available at [Google Drive shared folder: https://bit.ly/rivas-lab_covid19_PRS_weights](https://bit.ly/rivas-lab_covid19_PRS_weights).
   - Please see the documentation in [`snpnet`](/snpnet) directory for more information.
@@ -40,7 +40,7 @@ We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [p
 - 2020/3/21: We added the [ABO blood type frequency reference](/ABO) across 9 population groups in UK Biobank (White British, Non-British white, African, South Asian, East Asian, self-reported Chinese, self-reported Indian, self-reported Pakistani, and self-reported Bangladeshi).
 - 2020/3/20: We added a link to the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/).
 - 2020/3/19: We made an initial release of the polygenic risk score weights for 66 triats (blood measurements and biomarkers)! The weights of polygenic risk scores (PRSs) are available at [Google Drive shared folder: https://bit.ly/rivas-lab_covid19_PRS_weights](https://bit.ly/rivas-lab_covid19_PRS_weights). Please see [`snpnet`](/snpnet) directory for more information. We are still running the PRS computations and we will make an update release when we have improved results.
-- 2020/3/17: We updated the [HLA fequency reference](/UKB_HLA_freq). It now includes the frequencies from 5 population groups.
+- 2020/3/17: We updated the [HLA fequency reference](/HLA). It now includes the frequencies from 5 population groups.
 - 2020/3/17: initial release!
 
 ## Reference
