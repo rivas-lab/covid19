@@ -28,11 +28,11 @@ This repo is a summary of joint effort for the community project from the Stanfo
 
 ## Acknowledgement
 
-We thank Kazutoyo Osoegawa for reformatting and aggregation of the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/). We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [providing prioritized queue for COVID-19 research](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19)[7].
+We thank Dr. Kazutoyo Osoegawa for reformatting and aggregation of the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/). We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [providing prioritized queue for COVID-19 research](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19)[7].
 
 ## Update log
 
-- 2020/3/26: We added aggregated summary of Global frequencies of HLA allelotypes from the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/) in [`HLA`](HLA). We thank Kazutoyo Osoegawa for reformatting and aggregation of the data. We updated the directory name of [`HLA`](HLA) from `UKB_HLA_freq`.
+- 2020/3/26: We added aggregated summary of Global frequencies of HLA allelotypes from the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/) in [`HLA`](HLA). We thank Dr. Kazutoyo Osoegawa for reformatting and aggregation of the data. We updated the directory name of [`HLA`](HLA) from `UKB_HLA_freq`.
 - 2020/3/24: [Our initial draft write-up is now posted on preprints.org](https://doi.org/10.20944/preprints202003.0356.v1).
 - 2020/3/23: We added PRS evaluation plots and updated the documentation.
 - 2020/3/22: We added results and source code for the PRS-PheWAS analysis [PRS_PheWAS](/PRS_PheWAS).
