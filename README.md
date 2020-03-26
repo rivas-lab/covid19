@@ -17,7 +17,7 @@ We replicated recent findings in Zhao et al.[6] about the significant risk reduc
 
 - [PRS-PheWAS results](/PRS_PheWAS)
 - [ABO blood type frequencies in UK Biobank](/ABO)
-- [HLA allelotype frequencies in UK Biobank](/HLA)
+- [HLA allelotype frequencies in 17th IHIW NGS HLA Data and UK Biobank](/HLA)
 - [The weights for polygenic risk prediction](/snpnet)
   - The weights of PRSs are available at [Google Drive shared folder: https://bit.ly/rivas-lab_covid19_PRS_weights](https://bit.ly/rivas-lab_covid19_PRS_weights).
   - Please see the documentation in [`snpnet`](/snpnet) directory for more information.

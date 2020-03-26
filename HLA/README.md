@@ -60,7 +60,7 @@ Here are additional description on the data generation and aggregation process.
 - In a perfect world, one parent has 2 HLA haplotypes information available, and the allelotype count should be 4 per family. In their study, they had families with only one parent, two children. In this case they "imputed" the second parents using the children's HLA genotypes. If the children had "shared" one haplotype from the missing parent, they could impute only one allele. In this scenario, we had only three haplotypes per family. That's why the number of these are off from the perfect world scenario.
 - The allelotype frequencies in family study is calculated by treating "parents" as unrelated individuals.
 - For unrelated study, haplotypes were built using Expectation-Maximization (EM) algorithm, while family study, they were built using HLA allele inheritance.
-- For more information, please check the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/) website and their README files for [frequencies in unrelated individuals](http://17ihiw.org/wp-content/uploads/2018/10/Readme-Unrelated-HLA-allele-and-haplotypes-FQ-tables_072318.pdf) and [frequencies in families]((http://17ihiw.org/wp-content/uploads/2018/10/Readme-Family-HLA-allele-and-haplotypes-FQ-tables.pdf)).
+- For more information, please check the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/) website and their README files for [frequencies in unrelated individuals](http://17ihiw.org/wp-content/uploads/2018/10/Readme-Unrelated-HLA-allele-and-haplotypes-FQ-tables_072318.pdf) and [frequencies in families](http://17ihiw.org/wp-content/uploads/2018/10/Readme-Family-HLA-allele-and-haplotypes-FQ-tables.pdf).
 
 ## Acknowledgement
 
