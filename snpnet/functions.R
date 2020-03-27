@@ -163,35 +163,34 @@ compute_OR <- function(df, percentile_col, phe_col, l_bin, u_bin, cnt_middle){
     )
 }
 
-compute_summary_OR_df <- function(df, percentile_col, phe_col){            
+compute_summary_OR_df <- function(df, percentile_col, phe_col, bins=((0:10)/10)){
     cnt_middle <- df %>% 
     filter_by_percentile_and_count_phe(percentile_col, phe_col, 0.4, 0.6) %>%
     rename('n_40_60' = 'n')
 
-    bind_rows(
-        compute_OR(df, percentile_col, phe_col, 0, .10,   cnt_middle),
-        compute_OR(df, percentile_col, phe_col, .10, .20,   cnt_middle),
-        compute_OR(df, percentile_col, phe_col, .20, .40,   cnt_middle),
-        compute_OR(df, percentile_col, phe_col, .40, .60,   cnt_middle),
-        compute_OR(df, percentile_col, phe_col, .60, .80,   cnt_middle),
-        compute_OR(df, percentile_col, phe_col, .80, .90,   cnt_middle),        
-        compute_OR(df, percentile_col, phe_col, .90, 1, cnt_middle)
-    ) 
+    1:(length(bins)-1) %>%
+    lapply(function(i){
+        compute_OR(df, percentile_col, phe_col, bins[i], bins[i+1], cnt_middle)
+    }) %>%
+    bind_rows()
 }
 
-compute_summary_df <- function(df, percentile_col, phe_col){
-    percentile_col # redundant?
-    bind_rows(
-        compute_mean(df, percentile_col, phe_col,   0, .0005),
-        compute_mean(df, percentile_col, phe_col, .0005, .01),
-        compute_mean(df, percentile_col, phe_col, .01, .05),
-        lapply(2:19, function(x){
-            compute_mean(df, percentile_col, phe_col, (x-1)/20, x/20)
-        }),
-        compute_mean(df, percentile_col, phe_col, .95, .99),
-        compute_mean(df, percentile_col, phe_col, .99, .9995),
-        compute_mean(df, percentile_col, phe_col, .9995, 1)
-    )
+compute_summary_mean_df <- function(df, percentile_col, phe_col, bins=c(0, .0005, .01, (1:19)/20, .99, .9995, 1)){
+    1:(length(bins)-1) %>%
+    lapply(function(i){
+        compute_mean(df, percentile_col, phe_col, bins[i], bins[i+1])
+    }) %>%
+    bind_rows()
+}
+
+compute_summary_df <- function(df, percentile_col, phe_col, bins=c(0, .0005, .01, (1:19)/20, .99, .9995, 1), metric='mean'){
+    if(metric == 'mean'){
+        compute_summary_mean_df(df, percentile_col, phe_col, bins)
+    }else if(metric == 'OR'){
+        compute_summary_OR_df(df, percentile_col, phe_col, bins)
+    }else{
+        stop(sprintf('metric %s is not supported!', metric))
+    }
 }
 
 ### functions for plotting
