@@ -93,6 +93,10 @@ Here are additional description on the data generation and aggregation process.
 - For unrelated study, haplotypes were built using Expectation-Maximization (EM) algorithm, while family study, they were built using HLA allele inheritance.
 - For more information, please check the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/) website and their README files for [frequencies in unrelated individuals](http://17ihiw.org/wp-content/uploads/2018/10/Readme-Unrelated-HLA-allele-and-haplotypes-FQ-tables_072318.pdf) and [frequencies in families](http://17ihiw.org/wp-content/uploads/2018/10/Readme-Family-HLA-allele-and-haplotypes-FQ-tables.pdf). Specifically, you may find it useful to check out the README files abbreviations for the ethnicity and country.
 
+## two-digit HLA allelotype frequency information
+
+We used [`summarize.to.2digits.R`](summarize.to.2digits.R) to prepare the two-digit HLA allelotype frequency information. We manually curated the mapping to 2digits using the output from [`summarize.to.2digits.name.conv.R`](summarize.to.2digits.name.conv.R), and applied [`summarize.to.2digits.all.sh`](summarize.to.2digits.all.sh) to prepare the summary for the 4 datasets.
+
 ## Acknowledgement
 
 We thank Marcelo Fernandez-Vina and Euan Ashley for providing the information about the 17th IHIW NGS HLA Data. We thank Kazutoyo Osoegawa for reformatting and aggregating the 17th IHIW NGS HLA Data.
