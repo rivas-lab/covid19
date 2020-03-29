@@ -33,6 +33,7 @@ We thank Dr. Kazutoyo Osoegawa for reformatting and aggregation of the [17th IHI
 ## Update log
 
 - 2020/3/28: We updated the [HLA allelotype frequencies dataset](HLA). It now includes the HLA allelotype frequencies across more than 100 countries/regions from UK Biobank, in addition to the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/). We launched the [HLA map app](https://biobankengine.shinyapps.io/hla-map/) for vidualization of the frequency data.
+- 2020/3/27: Our [preprint](https://doi.org/10.20944/preprints202003.0356.v1)[1] is [introduced in a news article in Science](https://doi.org/10.1126/science.abb9192).
 - 2020/3/26: We updated the link to [COVID-19 Host Genetics Initiative](https://covid19hg.netlify.com/).
 - 2020/3/26: We added aggregated summary of Global frequencies of HLA allelotypes from the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/) in [`HLA`](HLA). We thank Dr. Kazutoyo Osoegawa for reformatting and aggregation of the data. We updated the directory name of [`HLA`](HLA) from `UKB_HLA_freq`.
 - 2020/3/24: [Our initial draft write-up is now posted on preprints.org](https://doi.org/10.20944/preprints202003.0356.v1).
@@ -55,3 +56,4 @@ We thank Dr. Kazutoyo Osoegawa for reformatting and aggregation of the [17th IHI
 5. [UK Biobank : Category 100081. Blood count - Blood assays - Assay results - Biological samples](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100081).
 6. [Zhao, J. et al. Relationship between the ABO Blood Group and the COVID-19 Susceptibility. medRxiv 2020.03.11.20031096 (2020)](https://doi.org/10.1101/2020.03.11.20031096).
 7. [Sherlock joins the fight against COVID-19. Stanford Research Computing Center](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19).
+8. [Kaiser, J. How sick will the coronavirus make you? The answer may be in your genes. Science (News article) (2020)](https://doi.org/10.1126/science.abb9192).
