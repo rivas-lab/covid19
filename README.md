@@ -32,6 +32,7 @@ We thank Dr. Kazutoyo Osoegawa for reformatting and aggregation of the [17th IHI
 
 ## Update log
 
+- 2020/3/28: We updated the [HLA allelotype frequencies dataset](HLA). It now includes the HLA allelotype frequencies across more than 100 countries/regions from UK Biobank, in addition to the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/). We launched the [HLA map app](https://biobankengine.shinyapps.io/hla-map/) for vidualization of the frequency data.
 - 2020/3/26: We updated the link to [COVID-19 Host Genetics Initiative](https://covid19hg.netlify.com/).
 - 2020/3/26: We added aggregated summary of Global frequencies of HLA allelotypes from the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/) in [`HLA`](HLA). We thank Dr. Kazutoyo Osoegawa for reformatting and aggregation of the data. We updated the directory name of [`HLA`](HLA) from `UKB_HLA_freq`.
 - 2020/3/24: [Our initial draft write-up is now posted on preprints.org](https://doi.org/10.20944/preprints202003.0356.v1).
