@@ -19,6 +19,13 @@ We have the following files available as community resource. Please see the corr
 - [`17ihiw-Unrelated-FQ.tsv`](17ihiw-Unrelated-FQ.tsv): HLA allelotype frequencies characterized for unrelated individuals in the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/)
 - [`17ihiw-Family-FQ.tsv`](17ihiw-Family-FQ.tsv): HLA allelotype frequencies characterized for families in the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/)
 
+For each data file, we also prepared two-digit HLA allelotype frequency information in `<dataset>.2digits.tsv`.
+
+- [`UKB.HLA.country_of_birth.2digits.tsv`](UKB.HLA.country_of_birth.2digits.tsv)
+- [`UKB.HLA.PCA_pop.2digits.tsv`](UKB.HLA.PCA_pop.2digits.tsv)
+- [`17ihiw-Unrelated-FQ.2digits.tsv`](17ihiw-Unrelated-FQ.2digits.tsv)
+- [`17ihiw-Family-FQ.2digits.tsv`](17ihiw-Family-FQ.2digits.tsv)
+
 ## HLA allelotype frequencies in the UK Biobank
 
 We provide the HLA allelotype frequencies in UK Biobank[3,4], which reports the imputed four-digit HLA allelotype for nearly 500,000 individuals. Specifically, we computed the allelotype frequencies based on the following two types of grouping definitions.
