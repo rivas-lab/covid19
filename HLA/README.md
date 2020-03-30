@@ -2,7 +2,7 @@
 
 We summarized the HLA allelotype frequencies across different populations. We aggregate the allelotype frequencies from two resources: UK Biobank (four-digit HLA allelotype) and the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/).
 
-We have the [HLA map app](https://biobankengine.shinyapps.io/hla-map/)[1] for vidualization of the frequency data.
+We developed [HLA map app](https://biobankengine.shinyapps.io/hla-map/)[1] for visualization of the frequency data.
 
 [![HLA map UKB country of birth](figs/HLA_map_UKB_country_of_birth_A0101.png)](https://biobankengine.shinyapps.io/hla-map/)
 
