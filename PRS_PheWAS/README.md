@@ -1,8 +1,8 @@
 # PRS-PheWAS
 
-We evaluate the utility of polygenic risk scores (PRSs) of blood measurement traits for the disease risk prediction. Specifically, we focused on 44 disease antigen measurements (listed in [`UKB_Category_1307.tsv`](UKB_Category_1307.tsv))[1], infectious diseases and acute respiratory infections (ICD-10 codes corresponding to J00-J06, J09-J18, J80, and J20-J22), and deaths in UK Biobank.
+We assessed association between blood measurement traits polygenic risk scores (PRSs) and i) infection disease risk, and ii) acute respiratory infection, acute respiratory distress syndrome, influenza and pneumonia hospitalization and death risk. We focused on 44 disease antigen measurements (listed in [`UKB_Category_1307.tsv`](UKB_Category_1307.tsv))[1], infectious diseases and acute respiratory infections (ICD-10 codes corresponding to J00-J06, J09-J18, J80, and J20-J22), and deaths in UK Biobank.
 
-Please check out initial draft of host genetics of COVID-19, [Initial review and analysis of COVID-19 host genetics and associated phenotypes](https://doi.org/10.20944/preprints202003.0356.v1) for more about the analysis.
+Please check out initial draft of host genetics of COVID-19, [Initial review and analysis of COVID-19 host genetics and associated phenotypes](https://doi.org/10.20944/preprints202003.0356.v1).
 
 ## List of files in this directory
 

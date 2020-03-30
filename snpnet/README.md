@@ -1,6 +1,6 @@
 # Polygenic risk scores (PRSs) from `snpnet`
 
-To characterize predictive models for biomarkers and blood measurements, we fit multivariate predictive models for each trait using `snpnet` package[1,2,3]. The `snpnet` method and `BASIL` algorithm is described in our preprint[1] and its enhanced implementation is described in another preprint[2]. The `R` package is available in our GitHub repository[3].
+To train polygenic risk models for biomarkers and blood measurements, we fit a multivariate Lasso model for each trait using the `snpnet` package[1,2,3]. The `snpnet` package and `BASIL` algorithm are described in our preprint[1] and its enhanced implementation is described in another preprint[2]. The `R` package is available in our GitHub repository[3].
 
 ## List of 61 traits used in our analysis
 
