@@ -51,13 +51,9 @@ Additionally, we also generated performance plots for PRSs of the blood measurem
 
 ## Weights of polygenic risk scores
 
-We are still running the `snpnet` computation, but provide the PRS weights extracted from the intermediate results. ~~We will soon make the weights (`BETA` in the multivariate predictive model) of the polygenic risk score publicly available.~~
-
-<span style="color:red">**Our PRS results are not finalized yet! We provide PRSs from intermediate results from our computation.**</span>
-
 The weights of our PRS models are available from our [Google Drive shared folder: https://bit.ly/rivas-lab_covid19_PRS_weights](https://bit.ly/rivas-lab_covid19_PRS_weights).
 
-In the shared directory, you should be able to find a `tar.gz` file, named as `rivas-lab_covid19_PRS_weights.YYYYMMDD-hhmmss.tar.gz`. The `YYYYMMDD-hhmmss` represents the date and time of the data release, given that we are still in a process of PRS computation (and will post updates in the future).
+In the shared directory, you should be able to find a `tar.gz` file, named as `rivas-lab_covid19_PRS_weights.YYYYMMDD-hhmmss.tar.gz`. The `YYYYMMDD-hhmmss` represents the date and time of the data release.
 
 Once you extracted the tar file (`$ tar -xzvf rivas-lab_covid19_PRS_weights.YYYYMMDD-hhmmss.tar.gz`), you should able to see two files for each trait in our analysis.
 
@@ -71,6 +67,13 @@ Once you extracted the tar file (`$ tar -xzvf rivas-lab_covid19_PRS_weights.YYYY
 - `<trait ID>.covars.tsv` the PRS weights for covariates. This file has the following columns:
   - ID: the covariates
   - BETA: the effect size estimate in our PRS model
+
+For blood related measurements, we additionall provide plots for the performance evaluation.
+
+- `<trait ID>.sscore.png`: two panel plots summarizing the comparison of the predicted trait values (based on non-covariate features alone) and the observed trait value. Those files are the same ones as in [`figs`](figs) directory.
+- `<trait ID>.sscore.summary.tsv`: the source files used to generate the panel on the right. It has the following columns:
+  - `bin_str`: this column contains the intervals for the PRS bins. Computer friendly formats are in `l_bin` (lower bound) and `u_bin` (upper bound).
+  - mean_str: the trait value in the specified bin in our test set. Computer friendly formats are in `mean` (mean value), `std_err` (standard error), and `l_err` and `u_err` (error bars).
 
 Our trait IDs are written as `GBE_ID` in [`pheno.info.tsv`](pheno_info.tsv). The full performance metric table ([`metric.R2.tsv`](metric.R2.tsv)) also has the `GBE_ID` column.
 

@@ -53,6 +53,7 @@ for(d in unique(metric_df$dataset)){
 # write the results to file
 metric_df %>% 
 rename('#GBE_ID' = 'GBE_ID') %>%
+select(-Units_of_measurement) %>%
 fwrite(metric_f, sep='\t', na = "NA", quote=F)
 
 for(d in unique(metric_df$dataset)){
@@ -62,5 +63,4 @@ for(d in unique(metric_df$dataset)){
         str_replace(metric_f, '.R2', sprintf('.summary.%s', d)),
         sep='\t'
     )
-    
 }

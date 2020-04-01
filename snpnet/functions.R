@@ -45,7 +45,7 @@ read_PRS_score <- function(score_f){
 read_phe_and_scores <- function(phe_f, score_f, covar_score_f, trait, split.col='split'){
     phe_df <- read_phe(phe_f, trait, split.col)
 
-    score_df <- read_PRS_score()
+    score_df <- read_PRS_score(score_f)
     
     covar_score_df <- fread(
         covar_score_f,
