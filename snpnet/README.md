@@ -24,8 +24,6 @@ Our PRSs are in the form of multivariate regression. Specifically, we fit the fo
 
 ## Performance of polygenic risk scores (PRSs)
 
-<span style="color:red">**Our PRS results are not finalized yet! We provide PRSs from intermediate results from our computation.**</span>
-
 We evaluated the performance of PRSs with R<sup>2</sup> and summarize them in two tables, [`metric.summary.blood.tsv`](metric.summary.blood.tsv) and [`metric.summary.biomarkers.tsv`](metric.summary.biomarkers.tsv), for the blood measurements[5] and the biomarker traits[4], respectively. Those two files have the following 4 columns:
 
 1. `phenotype`: the phenotype name
