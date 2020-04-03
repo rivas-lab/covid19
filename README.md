@@ -21,6 +21,7 @@ We replicated recent findings in Zhao et al.[6] about the significant risk reduc
 - [The weights for polygenic risk prediction](/snpnet)
   - The weights of PRSs are available at [Google Drive shared folder: https://bit.ly/rivas-lab_covid19_PRS_weights](https://bit.ly/rivas-lab_covid19_PRS_weights).
   - Please see the documentation in [`snpnet`](/snpnet) directory for more information.
+- We developed [HLA/ABO frequency map](https://biobankengine.shinyapps.io/hla-map/) for visualization of the ABO bloodtype and HLA allelotype frequency data.
 
 ## Note
 

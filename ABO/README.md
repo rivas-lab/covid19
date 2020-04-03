@@ -1,5 +1,9 @@
 # ABO Blood type analysis
 
+We developed [HLA/ABO frequency map](https://biobankengine.shinyapps.io/hla-map/) for visualization of the ABO bloodtype and HLA allelotype frequency data.
+
+## Summary
+
 Recently, Zhao et al.[1] reported ABO blood type frequency differences between the COVID-19 patients and the control population. To replicate their findings using an independent set of unrelated individuals, and to provide a reference panel for ABO blood type frequencies across diverse populations, we aggregated the ABO blood type information. Given that the haplotype at _ABO_ locus that define the four major ABO antigen is tagged by 3 SNPs[2,3], we extracted the genotype information at those variants, computed the frequencies of the haplotypes and the blood types across 9 population groups (White British, Non-British white, African, South Asian, East Asian, self-reported Chinese, self-reported Indian, self-reported Pakistani, and self-reported Bangladeshi).
 
 Please check out initial draft of host genetics of COVID-19, [Initial review and analysis of COVID-19 host genetics and associated phenotypes](https://doi.org/10.20944/preprints202003.0356.v1) for more about the analysis.
