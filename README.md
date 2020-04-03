@@ -32,6 +32,8 @@ We thank Dr. Kazutoyo Osoegawa for reformatting and aggregation of the [17th IHI
 
 ## Update log
 
+- 2020/4/3: We added summary for normalization of PRS.
+- 2020/4/1: We released the updated PRS weights. Please see [`snpnet`](/snpnet) directory for more information.
 - 2020/3/29: We added [two-digit HLA allelotype frequency information](/HLA).
 - 2020/3/28: We updated the [HLA allelotype frequencies dataset](/HLA). It now includes the HLA allelotype frequencies across more than 100 countries/regions from UK Biobank, in addition to the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/). We launched the [HLA map app](https://biobankengine.shinyapps.io/hla-map/) for vidualization of the frequency data.
 - 2020/3/27: Our [preprint](https://doi.org/10.20944/preprints202003.0356.v1)[1] is [introduced in a news article in Science](https://doi.org/10.1126/science.abb9192).

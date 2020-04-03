@@ -75,6 +75,12 @@ For blood related measurements, we additionall provide plots for the performance
 
 Our trait IDs are written as `GBE_ID` in [`pheno.info.tsv`](pheno_info.tsv). The full performance metric table ([`metric.R2.tsv`](metric.R2.tsv)) also has the `GBE_ID` column.
 
+## Normalization of PRS scores
+
+![PRS distributions in the test set](PRS.dist.png)
+
+We provide summary statistics (mean, sd, 25,50,75%-tile values in our validation set) of the PRSs so that one can compute the percentile of the PRS for new individuals. Please check [`PRS.dist.statistic.tsv`](PRS.dist.statistic.tsv). The distribution of the PRSs across 8 blood measurements are plotted in [`PRS.dist.png`](PRS.dist.png).
+
 ## List of scripts/notebooks
 
 - [`1_phe_prep.ipynb`](1_phe_prep.ipynb): phenotype file prep. We merge the GWAS covariates file, master phe file (for blood measurements phenotypes), and biomarker phenotype file (which is not a part of master phe file).
@@ -89,6 +95,7 @@ Our trait IDs are written as `GBE_ID` in [`pheno.info.tsv`](pheno_info.tsv). The
 - [`9_PRS_plots.R`](9_PRS_plots.R) and [`9_PRS_plots.sh`](9_PRS_plots.sh): this script is used to generate the PRS evaluation plot.
 - [`10_PRS_score_summary.R`](10_PRS_score_summary.R): this script summarizes the mean and the standard error of the phenotypes stratified by PRS.
 - [`11_copy_PRS_eval_plots.sh`](11_copy_PRS_eval_plots.sh): this script copies the plots generated from [`9_PRS_plots.R`](9_PRS_plots.R) to [`figs`](figs) directory.
+- [`12_PRS_dist_summary.ipynb`](12_PRS_dist_summary.ipynb): this notebook was used to compute summary statistics for PRS normalization ([`PRS.dist.statistic.tsv`](PRS.dist.statistic.tsv)).
 
 ## Job submission commands
 
