@@ -38,6 +38,11 @@ logit(COVID-19) ~ 1 + age + sex + scale(BMI) + scale(Townsend) + Creatinine + Cy
 - BMI and Townsend deprivation index are from UK Biobank fields 21001 and 189, respectively.
 - LDL is adjusted for statin use.
 - We used individuals not in our "population" definition as the reference class in `as.factor(population)`.
+- The Towsend deprivation index is a measure of material deprivation within a population. It incorporates [four variables](https://en.wikipedia.org/wiki/Townsend_deprivation_index):
+    + Unemployment (as a percentage of those aged 16 and over who are economically active);
+    + Non-car ownership (as a percentage of all households);
+    + Non-home ownership (as a percentage of all households); and
+    + Household overcrowding.
 
 ## Genome-wide association analysis (GWAS)
 
