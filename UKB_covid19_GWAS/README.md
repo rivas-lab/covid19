@@ -53,12 +53,12 @@ We performed the GWAS analysis for the following set of unrelated individuals.
 
 ### GWAS scan with plink
 
-Using `plink2`, We applied the Genome-wide association analysis (GWAS) for the following set of variant sets.
+Using [`plink2` (version 2020/4/9)](https://www.cog-genomics.org/plink/2.0/)(Chang, C. C. et al. 2015), we applied genome-wide association analysis (GWAS) for the following set of variant sets.
 
-- Genotyped variants directly genotyped on array
-- HLA alleotypes (2 digit resolution)
-- Copy number variations (CNVs)
-- Exome dataset (GRCh38)
+- [Genotyped variants directly genotyped on array](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100315)
+- [HLA alleotypes](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100035)
+- [Copy number variations (CNVs)](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100315) (Aguirre, M. et al 2019)
+- [Exome dataset (GRCh38)](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=170)
 
 Our regression model in the analysis was as follows:
 
@@ -84,11 +84,11 @@ We performed the association analysis for genetic variants on X chromosome using
 
 ### Meta-analysis with metal
 
-Using the GWAS summary statistics for White British, African, and South Asian, we performed meta-analysis within UK Biobank with [Metal](http://csg.sph.umich.edu/abecasis/metal/).
+Using the GWAS summary statistics for White British, African, and South Asian, we performed meta-analysis within UK Biobank with [Metal](http://csg.sph.umich.edu/abecasis/metal/)(Willer, C. J. et al. 2010).
 
 ## Genetic correlation analysis
 
-We applied [LD score regression](https://github.com/bulik/ldsc) to estimate the genetic correlations among traits.
+We applied [LD score regression](https://github.com/bulik/ldsc)(Bulik-Sullivan, B. et al. 2015a, Bulik-Sullivan, B. et al. 2015b) to estimate the genetic correlations among traits.
 
 ### Case definition comparison
 
@@ -106,7 +106,7 @@ We evaluated the genetic corelations of those blood measurements.
 
 ### Other phenotypes in Global Biobank Engine
 
-In Global Biobank Engine, we host summary statistcs for > 2000 phenotypes. We performed the phenome-wide genetic correlation scan.
+In [Global Biobank Engine](https://gbe.stanford.edu/)(McInnes, G. et al. 2019), we host summary statistcs for > 2000 phenotypes. We performed the phenome-wide genetic correlation scan.
 
 ## PRS PheWAS analysis
 
@@ -141,11 +141,13 @@ We thank Kilian Cavalotti and [Stanford Research Computing Center](https://srcc.
 ## Reference
 
 - [UK Biobank: COVID-19 data](http://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=COVID19)
-- [Y. Tanigawa, M. Rivas, Initial Review and Analysis of COVID-19 Host Genetics and Associated Phenotypes (2020)](https://doi.org/10.20944/preprints202003.0356.v1).
+- [Y. Tanigawa, M. Rivas, Initial Review and Analysis of COVID-19 Host Genetics and Associated Phenotypes. Preprints.org (2020)](https://doi.org/10.20944/preprints202003.0356.v1).
 - [UK Biobank : Category 100081. Blood count - Blood assays - Assay results - Biological samples](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100081).
 - [Sinnott-Armstrong, N. et al. Genetics of 38 blood and urine biomarkers in the UK Biobank. bioRxiv 660506 (2019)](https://doi.org/10.1101/660506).
+- [Chang, C. C. et al. Second-generation PLINK: rising to the challenge of larger and richer datasets. Gigascience 4, (2015)](https://doi.org/10.1186/s13742-015-0047-8).
 - [Willer, C. J., Li, Y. & Abecasis, G. R. METAL: fast and efficient meta-analysis of genomewide association scans. Bioinformatics 26, 2190–2191 (2010)](https://doi.org/10.1093/bioinformatics/btq340).
 - [Bulik-Sullivan, B. K. et al. LD Score regression distinguishes confounding from polygenicity in genome-wide association studies. Nature Genetics 47, 291–295 (2015)](https://doi.org/10.1038/ng.3211).
 - [Bulik-Sullivan, B. et al. An atlas of genetic correlations across human diseases and traits. Nature Genetics 47, 1236–1241 (2015)](https://doi.org/10.1038/ng.3406).
 - [Aguirre, M., Rivas, M. A. & Priest, J. Phenome-wide Burden of Copy-Number Variation in the UK Biobank. The American Journal of Human Genetics 105, 373–383 (2019)](https://doi.org/10.1016/j.ajhg.2019.07.001).
+- [McInnes, G. et al. Global Biobank Engine: enabling genotype-phenotype browsing for biobank summary statistics. Bioinformatics (2019)](https://doi.org/10.1093/bioinformatics/bty999).
 - [Sherlock joins the fight against COVID-19. Stanford Research Computing Center](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19).
