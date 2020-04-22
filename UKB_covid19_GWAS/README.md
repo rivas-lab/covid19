@@ -10,7 +10,7 @@ We performed a series of analysis using [the COVID-19 dataset from UK Biobank](h
 
 ## COVID-19 case definition
 
-We primarily considered the COVID-19 test results (`result`) column in [the data release from UK Biobank]((http://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=COVID19)) for our case definition. For our controls, we used the rest of the entire UK Biobank samples with genotype data.
+We primarily considered the COVID-19 test results (`result`) column in [the data release from UK Biobank](http://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=COVID19) for our case definition. For our controls, we used the rest of the entire UK Biobank samples with genotype data.
 
 As a comparison, we used a narrower definition of cases -- tested positive **and** hospitalized -- as [suggested by Dr. Danny Wilson](https://news.bugbank.uk/2020/04/interpreting-uk-biobank-covid-19-test.html). We compared the GWAS summary statistics generated for those two case assertation and confirmed that their genetic correlation is `rg=1` (see below).
 
@@ -76,7 +76,7 @@ Additionally, we applied GWAS with the following models:
 2. GWAS with more covariates
     - We used `BMI` and `Townsend` deprivation index as additional covariates.
 
-In our previous pre-print, we focused on disease assertation and mortality information for infectious diseases, and acute respiratory infections. To evaluate the genetic correlation with those phenotypes, we also applied the GWAS scan for those two phenotypes, which we denote as `Tanigawa et al, disease` and `Tanigawa et al, death`, respectively.
+In [our previous pre-print](https://doi.org/10.20944/preprints202003.0356.v1), we focused on disease assertation and mortality information for infectious diseases, and acute respiratory infections. To evaluate the genetic correlation with those phenotypes, we also applied the GWAS scan for those two phenotypes, which we denote as `Tanigawa et al, disease` and `Tanigawa et al, death`, respectively.
 
 ### Analysis on X chromosome
 
@@ -84,11 +84,11 @@ We performed the association analysis for genetic variants on X chromosome using
 
 ### Meta-analysis with metal
 
-Using the GWAS summary statistics for White British, African, and South Asian, we performed meta-analysis within UK Biobank with Metal.
+Using the GWAS summary statistics for White British, African, and South Asian, we performed meta-analysis within UK Biobank with [Metal](http://csg.sph.umich.edu/abecasis/metal/).
 
 ## Genetic correlation analysis
 
-We applied LD score regression to estimate the genetic correlations among traits.
+We applied [LD score regression](https://github.com/bulik/ldsc) to estimate the genetic correlations among traits.
 
 ### Case definition comparison
 
@@ -96,11 +96,11 @@ In the "COVID-19 case definition" section above, we explained our COVID-19 case 
 
 ### disease assertation and mortality information for infectious diseases, and acute respiratory infections
 
-We also evaluated the genetic correlation between COVID-19 and `Tanigawa et al, disease` and `Tanigawa et al, death`.
+We also evaluated the genetic correlation between COVID-19 and [`Tanigawa et al, disease` and `Tanigawa et al, death`](https://doi.org/10.20944/preprints202003.0356.v1).
 
 ### blood measurements and biomarkers
 
-We provided PRS for blood measurements and biomarkers in this repository. In the same pre-print, we showed correlation between PRSs for blood measurements and disease assertation and mortality information for infectious diseases, and acute respiratory infections.
+We provided PRS for blood measurements and biomarkers in this repository. In [the same pre-print](https://doi.org/10.20944/preprints202003.0356.v1), we showed correlation between PRSs for blood measurements and disease assertation and mortality information for infectious diseases, and acute respiratory infections.
 
 We evaluated the genetic corelations of those blood measurements.
 
@@ -110,11 +110,11 @@ In Global Biobank Engine, we host summary statistcs for > 2000 phenotypes. We pe
 
 ## PRS PheWAS analysis
 
-We previously provided PRSs for blood measurements and biomarkers. We asked whether those PRSs are correlated with COVID-19.
+We [previously provided PRSs for blood measurements and biomarkers](https://doi.org/10.20944/preprints202003.0356.v1). We asked whether those PRSs are correlated with COVID-19.
 
 ## ABO forest plot
 
-In the same pre-print, we highlighted the importance of further data sharing of the ABO frequency data. With the COVID-19 datasets from UK Biobank, we evaluated the associations between the ABO blood type and COVID-19.
+In [the same pre-print](https://doi.org/10.20944/preprints202003.0356.v1), we highlighted the importance of further data sharing of the ABO frequency data. With the COVID-19 datasets from UK Biobank, we evaluated the associations between the ABO blood type and COVID-19.
 
 ## Web application
 
@@ -140,8 +140,12 @@ We thank Kilian Cavalotti and [Stanford Research Computing Center](https://srcc.
 
 ## Reference
 
-- [Sinnott-Armstrong, N. et al. Genetics of 38 blood and urine biomarkers in the UK Biobank. bioRxiv 660506 (2019)](https://doi.org/10.1101/660506).
+- [UK Biobank: COVID-19 data](http://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=COVID19)
+- [Y. Tanigawa, M. Rivas, Initial Review and Analysis of COVID-19 Host Genetics and Associated Phenotypes (2020)](https://doi.org/10.20944/preprints202003.0356.v1).
 - [UK Biobank : Category 100081. Blood count - Blood assays - Assay results - Biological samples](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100081).
-- [Tanigawa, Y. et al. Components of genetic associations across 2,138 phenotypes in the UK Biobank highlight adipocyte biology. Nat Commun 10, 1–14 (2019)](https://doi.org/10.1038/s41467-019-11953-9).
+- [Sinnott-Armstrong, N. et al. Genetics of 38 blood and urine biomarkers in the UK Biobank. bioRxiv 660506 (2019)](https://doi.org/10.1101/660506).
+- [Willer, C. J., Li, Y. & Abecasis, G. R. METAL: fast and efficient meta-analysis of genomewide association scans. Bioinformatics 26, 2190–2191 (2010)](https://doi.org/10.1093/bioinformatics/btq340).
+- [Bulik-Sullivan, B. K. et al. LD Score regression distinguishes confounding from polygenicity in genome-wide association studies. Nature Genetics 47, 291–295 (2015)](https://doi.org/10.1038/ng.3211).
+- [Bulik-Sullivan, B. et al. An atlas of genetic correlations across human diseases and traits. Nature Genetics 47, 1236–1241 (2015)](https://doi.org/10.1038/ng.3406).
 - [Aguirre, M., Rivas, M. A. & Priest, J. Phenome-wide Burden of Copy-Number Variation in the UK Biobank. The American Journal of Human Genetics 105, 373–383 (2019)](https://doi.org/10.1016/j.ajhg.2019.07.001).
 - [Sherlock joins the fight against COVID-19. Stanford Research Computing Center](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19).
