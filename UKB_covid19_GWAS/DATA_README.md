@@ -29,7 +29,7 @@ We have the following files are available in this dataset. All summary statistic
   - Exome analysis (hg38)
     - White British and non-British white (WB + NBW, 55 + 3 cases and 37029 controls)
       - `ukb24983_v2_hg38.WB_NBW.exome-spb.covid19_test_result.glm.logistic.hybrid.gz`
-- GWAS summary statistics for disease assertation and mortality information for infectious diseases, and acute respiratory infections disease.
+- GWAS summary statistics for disease and mortality information for infectious diseases, and acute respiratory infections disease.
   - White British, `Tanigawa et al, disease` (19135 cases and 318003 controls)
     - `ukb24983_v2_hg19.white_british.array-combined.ICD_disease.glm.logistic.hybrid.gz`
   - White British , `Tanigawa et al, death` (1691 cases and 335447 controls)
