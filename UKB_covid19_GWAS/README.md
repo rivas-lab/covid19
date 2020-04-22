@@ -1,8 +1,6 @@
 # The COVID-19 dataset in UK Biobank
 
-We performed a series of analysis using [the COVID-19 dataset from UK Biobank](http://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=COVID19).
-
-- [Armstrong, J. et al. Dynamic linkage of Public Health England’s Second Generation Surveillance System to UK Biobank provides real-time outcomes for infection research. (2020)](https://doi.org/10.6084/m9.figshare.12091455.v1).
+We performed a series of analysis using [the COVID-19 dataset from UK Biobank](http://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=COVID19)(Armstrong, J. et al. 2020).
 
 ![COVID-19 Manhattan plot in UK Biobank](UKB_COVID19_Manhattan_20200421.png)
 
@@ -142,6 +140,7 @@ We thank Kilian Cavalotti and [Stanford Research Computing Center](https://srcc.
 
 - [UK Biobank: COVID-19 data](http://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=COVID19)
 - [Y. Tanigawa, M. Rivas, Initial Review and Analysis of COVID-19 Host Genetics and Associated Phenotypes. Preprints.org (2020)](https://doi.org/10.20944/preprints202003.0356.v1).
+- [Armstrong, J. et al. Dynamic linkage of Public Health England’s Second Generation Surveillance System to UK Biobank provides real-time outcomes for infection research. figshare (2020)](https://doi.org/10.6084/m9.figshare.12091455.v1).
 - [UK Biobank : Category 100081. Blood count - Blood assays - Assay results - Biological samples](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100081).
 - [Sinnott-Armstrong, N. et al. Genetics of 38 blood and urine biomarkers in the UK Biobank. bioRxiv 660506 (2019)](https://doi.org/10.1101/660506).
 - [Chang, C. C. et al. Second-generation PLINK: rising to the challenge of larger and richer datasets. Gigascience 4, (2015)](https://doi.org/10.1186/s13742-015-0047-8).
