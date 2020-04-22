@@ -133,6 +133,10 @@ We complied our results into a web application. Currently, we display the follow
 
 The web application will be continuously updated as new analysis and projects come online.
 
+## Dataset availability
+
+We made our GWAS summary statistics publicly available. We uploaded our data in Google Drive shared folder: @@@@@@@@@@@@@@@@@@@. Please see [`DATA_README.md`](DATA_README.md) for more details.
+
 ## Analysis scripts
 
 We are cleaning up the analysis scripts for public release.
