@@ -8,13 +8,13 @@ We performed a series of analysis using [the COVID-19 dataset from UK Biobank](h
 
 ## COVID-19 case definition
 
-We primarily considered the COVID-19 test results (`result`) column in [the data release from UK Biobank](http://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=COVID19) for our case definition. For our controls, we used the rest of the entire UK Biobank samples with genotype data.
+We primarily considered the COVID-19 test results (`result`) column in [the data release from UK Biobank](http://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=COVID19) for our case definition. We treat individual as "case" if there is at least one case assertation in the test results column. For our controls, we used the rest of the entire UK Biobank samples with genotype data.
 
 As a comparison, we used a narrower definition of cases -- tested positive **and** hospitalized -- as [suggested by Dr. Danny Wilson](https://news.bugbank.uk/2020/04/interpreting-uk-biobank-covid-19-test.html). We compared the GWAS summary statistics generated for those two case assertation and confirmed that their genetic correlation is `rg=1` (see below).
 
 ## Demographic distribution of COVID-19 cases in UK Biobank
 
-We first examined the first two components of genotype PCs for individuals in case (in red) and control (in gray) sets.
+We first examined the first two components of genotype PCs for individuals in case (in red) and control (in gray) sets ([`UKB_covid19.PCA.png`](UKB_covid19.PCA.png)).
 
 To see if we can see a difference in the demographic distributions beteen cases and controls, we first tabulated the number of cases and contorls in different sub-populations in UK Biobank. In our previous work, we previously used those genotye PCs to define "populations" consists of unrelated individuals within UK Biobank.
 

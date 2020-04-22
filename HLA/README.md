@@ -64,6 +64,13 @@ We computed the allelotype frequency using `--geno-counts` subcommands in PLINK 
 
 Our initial HLA allelotype association analysis using the White British population defined above is also briefly described in our paper[10].
 
+### Haplotype
+
+```{bash}
+ plink --out ukb_hla_v3 --bfile ukb_hla_v3 --export ped
+ mv ukb_hla_v3.log ukb_hla_v3.ped.log
+```
+
 ## HLA allelotype frequencies in the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/)
 
 Using the [worldwide population frequencies in unrelated individuals and in families](http://17ihiw.org/17th-ihiw-ngs-hla-data/)[11,12] dataset, we prepared two tables, [`17ihiw-Unrelated-FQ.tsv`](17ihiw-Unrelated-FQ.tsv) and [`17ihiw-Family-FQ.tsv`](17ihiw-Family-FQ.tsv), for frequencies in unrelated individuals and in families, respectively. We thank Kazutoyo Osoegawa for reformatting and aggregating the 17th IHIW NGS HLA Data.
