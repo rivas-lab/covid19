@@ -137,7 +137,7 @@ The web application will be continuously updated as new analysis and projects co
 
 ## Dataset availability
 
-We made our GWAS summary statistics publicly available. We uploaded our data in Google Drive shared folder: @@@@@@@@@@@@@@@@@@@. Please see [`DATA_README.md`](DATA_README.md) for more details.
+We made our GWAS summary statistics publicly available. We uploaded our data in Google Drive shared folder: https://bit.ly/rivas-lab_covid19_UKB_GWAS. Please see [`DATA_README.md`](DATA_README.md) for more details.
 
 ## Analysis scripts
 

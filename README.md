@@ -32,7 +32,7 @@ This repo is a summary of joint effort for the community project from the Stanfo
 We thank Dr. Kazutoyo Osoegawa for reformatting and aggregation of the [17th IHIW NGS HLA Data](http://17ihiw.org/17th-ihiw-ngs-hla-data/). We thank [Stanford Research Computing Center](https://srcc.stanford.edu/) for [providing prioritized queue for COVID-19 research](http://news.sherlock.stanford.edu/posts/sherlock-joins-the-fight-against-covid-19)[7].
 
 ## Update log
-
+- 2020/4/22: We make [UK Biobank](https://github.com/rivas-lab/covid19/tree/master/UKB_covid19_GWAS) analysis and summary statistics publicly available.
 - 2020/4/3: We added summary for normalization of PRS.
 - 2020/4/1: We released the updated PRS weights. Please see [`snpnet`](/snpnet) directory for more information.
 - 2020/3/29: We added [two-digit HLA allelotype frequency information](/HLA).

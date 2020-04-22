@@ -1,8 +1,8 @@
 # COVID-19 UKB GWAS Dataset release from the Rivas Lab
 
-We make our dataset publicly available via Google Drive shared folder: @@@@@@@@@@@@@@@@@@@. Given that we will be continuously updating our analysis, we use an explicit versioning of our data release and the release date is indicated by directory name (`YYYYMMDD`).
+We make our dataset publicly available via Google Drive shared folder: https://bit.ly/rivas-lab_covid19_UKB_GWAS . Given that we will be continuously updating our analysis, we use an explicit versioning of our data release and the release date is indicated by directory name (`YYYYMMDD`).
 
-This document explains the set of availalbe files. Please check [README](README.md) for the summary of our analysis.
+This document explains the set of availalbe files. Please check [`README.md`](README.md) for a summary of our analysis.
 
 ## Version `20200422`
 
@@ -33,7 +33,7 @@ We have the following files are available in this dataset. All summary statistic
   - Exome analysis (hg38)
     - White British and non-British white (WB + NBW, 55 + 3 cases and 37029 controls)
       - `ukb24983_v2_hg38.WB_NBW.exome-spb.covid19_test_result.glm.logistic.hybrid.gz`
-- GWAS summary statistics for disease assertation and mortality information for infectious diseases, and acute respiratory infections disease.
+- GWAS summary statistics for disease and mortality information for infectious diseases, and acute respiratory infections disease.
   - White British, `Tanigawa et al, disease` (19135 cases and 318003 controls)
     - `ukb24983_v2_hg19.white_british.array-combined.ICD_disease.glm.logistic.hybrid.gz`
   - White British , `Tanigawa et al, death` (1691 cases and 335447 controls)
