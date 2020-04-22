@@ -2,7 +2,7 @@
 
 We make our dataset publicly available via Google Drive shared folder: @@@@@@@@@@@@@@@@@@@. Given that we will be continuously updating our analysis, we use an explicit versioning of our data release and the release date is indicated by directory name (`YYYYMMDD`).
 
-This document explains the set of availalbe files. Please check [README](README.md) for the summary of our analysis.
+This document explains the set of availalbe files. Please check `[README.md](README.md)` for a summary of our analysis.
 
 ## Version `20200421`
 
