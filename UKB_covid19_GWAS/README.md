@@ -55,7 +55,7 @@ Using [`plink2` (version 2020/4/9)](https://www.cog-genomics.org/plink/2.0/)(Cha
 
 - [Genotyped variants directly genotyped on array](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100315)
 - [HLA alleotypes](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100035)
-- [Copy number variations (CNVs)](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100315) (Aguirre, M. et al 2019)
+- [Copy number variations (CNVs)](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100315) and CNV burden test(Aguirre, M. et al 2019)
 - [Exome dataset (GRCh38)](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=170)
 
 Our regression model in the analysis was as follows:
