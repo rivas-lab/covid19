@@ -39,10 +39,10 @@ logit(COVID-19) ~ 1 + age + sex + scale(BMI) + scale(Townsend) + Creatinine + Cy
 - LDL is adjusted for statin use.
 - We used individuals not in our "population" definition as the reference class in `as.factor(population)`.
 - The Towsend deprivation index is a measure of material deprivation within a population. It incorporates [four variables](https://en.wikipedia.org/wiki/Townsend_deprivation_index):
-    + Unemployment (as a percentage of those aged 16 and over who are economically active);
-    + Non-car ownership (as a percentage of all households);
-    + Non-home ownership (as a percentage of all households); and
-    + Household overcrowding.
+  - Unemployment (as a percentage of those aged 16 and over who are economically active);
+  - Non-car ownership (as a percentage of all households);
+  - Non-home ownership (as a percentage of all households); and
+  - Household overcrowding.
 
 ## Genome-wide association analysis (GWAS)
 
@@ -62,6 +62,8 @@ Using [`plink2` (version 2020/4/9)](https://www.cog-genomics.org/plink/2.0/)(Cha
 - [HLA alleotypes](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100035)
 - [Copy number variations (CNVs)](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100315) and CNV burden test(Aguirre, M. et al 2019)
 - [Exome dataset (GRCh38)](http://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=170)
+
+The summary statistics from those association analysis is publicly available. Please check [`DATA_README.md`](DATA_README.md) for more information.
 
 Our regression model in the analysis was as follows:
 
