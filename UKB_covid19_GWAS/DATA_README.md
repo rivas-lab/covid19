@@ -4,6 +4,10 @@ We make our dataset publicly available via Google Drive shared folder: @@@@@@@@@
 
 This document explains the set of availalbe files. Please check [README](README.md) for the summary of our analysis.
 
+## Version `20200422`
+
+- We included the X-chromosome association statistics for files with `BMI_Townsend` in its file name.
+
 ## Version `20200421`
 
 We have the following files are available in this dataset. All summary statistics files are on hg19, with the exception of the exome dataset (hg38).

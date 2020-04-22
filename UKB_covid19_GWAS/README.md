@@ -2,7 +2,7 @@
 
 We performed a series of analysis using [the COVID-19 dataset from UK Biobank](http://biobank.ndph.ox.ac.uk/ukb/exinfo.cgi?src=COVID19)(Armstrong, J. et al. 2020).
 
-![COVID-19 Manhattan plot in UK Biobank](UKB_COVID19_Manhattan_20200421.png)
+![COVID-19 Manhattan plot in UK Biobank](UKB_COVID19_Manhattan_20200422.png)
 
 **Fig.** Manhattan plot from our meta-analyzed Genome-wide association analysis (GWAS) within UK Biobank.
 
