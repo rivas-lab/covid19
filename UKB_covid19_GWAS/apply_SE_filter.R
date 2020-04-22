@@ -24,9 +24,9 @@ apply_filter <- function(fm, radiogwas){
 }
 
 apply_filter_main <- function(radiogwas){
-    ss_d <- '/oak/stanford/groups/mrivas/projects/covid19/GWAS/UKB_covid19_GWAS_combined'
-    ma_d <- '/oak/stanford/groups/mrivas/projects/covid19/GWAS/UKB_covid19_GWAS_combined_metal/output/'
-    out_d <- '/oak/stanford/groups/mrivas/projects/covid19/GWAS/PUBLIC_RELEASE/20200421'
+    ss_d <- '@@@@@@@@@@@@@@@@@@@'
+    ma_d <- '@@@@@@@@@@@@@@@@@@@'
+    out_d <- '@@@@@@@@@@@@@@@@@@@'
     sumstats_files <- list()
     sumstats_files[['0']] <- file.path(ss_d, 'ukb24983_v2_hg19.white_british.array-combined.covid19_test_result.glm.logistic.hybrid.BMI_Townsend.gz')
     sumstats_files[['8']] <- file.path(ss_d, 'ukb24983_v2_hg19.white_british.array-combined.ICD_disease.glm.logistic.hybrid.gz')
