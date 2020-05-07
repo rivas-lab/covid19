@@ -4,6 +4,8 @@ We make our dataset publicly available via Google Drive shared folder: https://b
 
 This document explains the set of availalbe files. Please check [`README.md`](README.md) for a summary of our analysis.
 
+We used [plink2](https://www.cog-genomics.org/plink/2.0/) for our GWAS analysis. Please check the [plink file format description](https://www.cog-genomics.org/plink/2.0/formats#glm_logistic).
+
 ## Version `20200422`
 
 - We included the X-chromosome association statistics for files with `BMI_Townsend` in its file name.
